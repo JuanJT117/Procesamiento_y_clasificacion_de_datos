@@ -3,7 +3,7 @@ Contenido del curso:
 
 Sesión 1: Análisis de Texto.
 
-            -Introducción Introducción al análisis de texto en Ciencia de Datos 
+    -Introducción Introducción al análisis de texto en Ciencia de Datos 
     
     -Orígenes de datos 
     
