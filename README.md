@@ -1,5 +1,5 @@
 # Procesamiento_y_clasificacion_de_datos
-###Contenido del curso:
+### Contenido del curso:
 
 ## Sesión 1: Análisis de Texto.
 
@@ -10,6 +10,8 @@
 -Preprocesamiento de texto 
 
 -Representación de texto: bolsa de palabras 
+
+-[Clase 1: procesamiento de textos, analis de texto]()
  
 ## Sesión 2: Análisis de Texto 
 
