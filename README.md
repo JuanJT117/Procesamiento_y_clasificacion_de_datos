@@ -3,13 +3,13 @@ Contenido del curso:
 
 Sesión 1: Análisis de Texto.
 
- -Introducción Introducción al análisis de texto en Ciencia de Datos 
+    -Introducción Introducción al análisis de texto en Ciencia de Datos 
+    
+    -Orígenes de datos 
  
- -Orígenes de datos 
- 
- -Preprocesamiento de texto 
- 
- -Representación de texto: bolsa de palabras 
+    -Preprocesamiento de texto 
+    
+    -Representación de texto: bolsa de palabras 
  
 Sesión 2: Análisis de Texto 
 
