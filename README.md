@@ -1,5 +1,6 @@
 # Procesamiento_y_clasificacion_de_datos
 Contenido del curso:
+
 Sesión 1: Análisis de Texto.
  -Introducción Introducción al análisis de texto en Ciencia de Datos 
  -Orígenes de datos 
