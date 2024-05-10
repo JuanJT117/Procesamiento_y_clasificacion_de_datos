@@ -2,11 +2,17 @@
 Contenido del curso:
 
 Sesión 1: Análisis de Texto.
+
  -Introducción Introducción al análisis de texto en Ciencia de Datos 
+ 
  -Orígenes de datos 
+ 
  -Preprocesamiento de texto 
+ 
  -Representación de texto: bolsa de palabras 
+ 
 Sesión 2: Análisis de Texto 
+
  -Modelos avanzados de representación de texto 
  -Análisis de sentimientos utilizando técnicas de análisis de texto. 
 Sesión 3: Análisis de Texto. Clasificación 
