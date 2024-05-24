@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  16 MAY 2024 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  22 MAY 2024 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,15 +792,6 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \namebox=\box67
 \signboxdim=\dimen197
-\glswrite=\write3
-\glo@main@file=\write4
-\openout4 = `Main.glo'.
-
-Package glossaries Info: Writing glossary file Main.glo on input line 95.
-\glo@acronym@file=\write5
-\openout5 = `Main.acn'.
-
-Package glossaries Info: Writing glossary file Main.acn on input line 95.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
@@ -808,29 +799,29 @@ File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count361
 \l__pdf_internal_box=\box68
 ) (Main.aux
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -857,8 +848,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -906,19 +897,19 @@ Package caption Info: End \AtBeginDocument code.
 
 \c@mv@tabular=\count368
 \c@mv@boldtabular=\count369
-LaTeX Info: Redefining \microtypecontext on input line 104.
-Package microtype Info: Applying patch `item' on input line 104.
-Package microtype Info: Applying patch `toc' on input line 104.
-Package microtype Info: Applying patch `eqnum' on input line 104.
-Package microtype Info: Applying patch `footnote' on input line 104.
-Package microtype Info: Applying patch `verbatim' on input line 104.
+LaTeX Info: Redefining \microtypecontext on input line 99.
+Package microtype Info: Applying patch `item' on input line 99.
+Package microtype Info: Applying patch `toc' on input line 99.
+Package microtype Info: Applying patch `eqnum' on input line 99.
+Package microtype Info: Applying patch `footnote' on input line 99.
+Package microtype Info: Applying patch `verbatim' on input line 99.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 104.
+LaTeX Info: Redefining \showhyphens on input line 99.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -926,40 +917,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Arimo-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 104.
+Package hyperref Info: Link coloring ON on input line 99.
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/Arimo-TLF/m/n --> TS1/Arimo-TLF/b/n on input line 1
-04.
-Package gensymb Info: Math companion symbols declared on input line 104.
-LaTeX Info: Redefining \degree on input line 104.
-LaTeX Info: Redefining \celsius on input line 104.
+(Font)                  TS1/Arimo-TLF/m/n --> TS1/Arimo-TLF/b/n on input line 9
+9.
+Package gensymb Info: Math companion symbols declared on input line 99.
+LaTeX Info: Redefining \degree on input line 99.
+LaTeX Info: Redefining \celsius on input line 99.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 104.
-LaTeX Info: Redefining \ohm on input line 104.
-Package gensymb Info: Using \textohm for \ohm on input line 104.
-Package gensymb Info: Using \textmu for \micro on input line 104.
+erthousand on input line 99.
+LaTeX Info: Redefining \ohm on input line 99.
+Package gensymb Info: Using \textohm for \ohm on input line 99.
+Package gensymb Info: Using \textmu for \micro on input line 99.
 \c@lstlisting=\count370
-<Images/UCL_header.png, id=3, 619.5948pt x 171.039pt>
-File: Images/UCL_header.png Graphic file (type png)
-<use Images/UCL_header.png>
-Package pdftex.def Info: Images/UCL_header.png  used on input line 112.
-(pdftex.def)             Requested size: 597.50787pt x 164.94981pt.
+<Images/UANL.jpg, id=3, 971.0679pt x 409.0482pt>
+File: Images/UANL.jpg Graphic file (type jpg)
+<use Images/UANL.jpg>
+Package pdftex.def Info: Images/UANL.jpg  used on input line 107.
+(pdftex.def)             Requested size: 418.25368pt x 176.18065pt.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 120.
+(Font)              scaled to size 14.4pt on input line 115.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 120.
+(Font)              scaled to size 14.4pt on input line 115.
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 120.
 [1
-
-\openout3 = `Main.ist'.
 
 {C:/Users/juanj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/juan
 j/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/arimo/arm_l3opzb.enc} <./Images
-/UCL_header.png>]
-LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 176.
+/UANL.jpg>]
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 176.
+(Font)              scaled to size 24.88pt on input line 171.
  (Main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -988,87 +977,32 @@ LaTeX Font Info:    Font shape `TS1/Arimo-TLF/m/n' will be
 LaTeX Font Info:    Font shape `TS1/Arimo-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 2.
 )
-\tf@toc=\write6
-\openout6 = `Main.toc'.
+\tf@toc=\write3
+\openout3 = `Main.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.181 \newpage
-               [1] (Main.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lof=\write7
-\openout7 = `Main.lof'.
-
- [2]
+l.173 \newpage
+               [1] (Introduction.tex
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 192.
-(Introduction.tex
+(Font)              scaled to size 20.74pt on input line 1.
+) (Materials and Methods.tex [2
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 2.
-
+]
+Cap\'{\i }tulo 2.
 [3
 
 ]
-<Images/Stock_image.jpg, id=64, 5919.11375pt x 3945.74126pt>
-File: Images/Stock_image.jpg Graphic file (type jpg)
-<use Images/Stock_image.jpg>
-Package pdftex.def Info: Images/Stock_image.jpg  used on input line 15.
-(pdftex.def)             Requested size: 409.71692pt x 273.09933pt.
-LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 16.
-LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 16.
-) [4 <./Images/Stock_image.jpg>]
-Cap\'{\i }tulo 2.
-(Materials and Methods.tex
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 2.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 5.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 8.
-
-[5
-
-])
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 199.
-
-[6]
 Cap\'{\i }tulo 3.
-(Results.tex)
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 206.
-
-[7
+) (Results.tex [4
 
 ]
 Cap\'{\i }tulo 4.
-(Conclusion and Future Outlook.tex
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 2.
-
-)
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 217.
-
-[8
+) [5
 
 ] (Main.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
@@ -1082,16 +1016,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
-
-[9
+[6
 
 ] (Main.aux
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1099,24 +1028,20 @@ L3 programming layer <2024-04-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24998 strings out of 474370
- 433244 string characters out of 5740535
- 1932754 words of memory out of 5000000
- 46861 multiletter control sequences out of 15000+600000
- 572298 words of font info for 125 fonts, out of 8000000 for 9000
+ 24879 strings out of 474370
+ 430852 string characters out of 5740535
+ 1929754 words of memory out of 5000000
+ 46791 multiletter control sequences out of 15000+600000
+ 570014 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,96p,2343b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:US} has been referenced but does not exist, rep
-laced by a fixed one
-
- <C:\Users\juanj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt12
-00.pk><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/Ar
-imo-Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/a
-rimo/Arimo.pfb>
-Output written on Main.pdf (10 pages, 4448513 bytes).
+ 99i,5n,96p,2343b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\juanj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1200.pk><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/
+Arimo-Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google
+/arimo/Arimo.pfb>
+Output written on Main.pdf (7 pages, 394766 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 47755 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 39494 words of extra memory for PDF output out of 42996 (max. 10000000)
 

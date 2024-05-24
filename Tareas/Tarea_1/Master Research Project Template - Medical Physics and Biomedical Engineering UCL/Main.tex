@@ -91,11 +91,6 @@
 % Change figure numbering per section
 \numberwithin{figure}{chapter}
 
-%Acronym entries
-\makeglossaries
-\newacronym{US}{US}{Ultrasound}
-
-
 
 %  -------------------------------------------------
 %  --------- The document starts from here --------- 
@@ -108,10 +103,10 @@
 \begin{titlepage}
 \begin{center}
     % UCL IMAGE
-    \vspace*{-3cm}
-    \makebox[\textwidth]{\includegraphics[width=\paperwidth]{Images/UCL_header.png}}
+    \vspace*{-2cm}
+    \makebox[\textwidth]{\includegraphics[width=0.7\paperwidth]{Images/UANL}}
     
-    \vspace{2.3cm}
+    \vspace{1.5cm}
     
     % Title
     %{\relscale{1.19}{A thesis submitted in partial fulfilment of the requirements for the degree of Master of Science (MSc) in}}
@@ -122,7 +117,7 @@
     {\relscale{1.15}\textbf{Universidad Autónoma de Nuevo León\\}}
     \vspace{2.4cm}
     
-    {\relscale{1.19}{Tarea 1 - Procesamiento de texto}}\\
+    {\relscale{2}{Tarea 1 - Análisis estadístico de comentarios del primer debate presidencial}}\\
     %\vspace{0.1cm}
     Por\\
     %\vspace{0.1cm}
@@ -174,59 +169,28 @@
 %\newpage
 % ------------------  TABLE OF CONTENTS --------------------
 \tableofcontents 
-
-
-
 % -------------------  LIST OF FIGURES --------------------
 \newpage 
 %{\let\oldnumberline\numberline       % Uncomment to add the word 'Figure' to figure number in List of Figures
 %\renewcommand{\numberline}{\figurename~\oldnumberline}  
-\listoffigures%}
+%\listoffigures%}
 \addcontentsline{toc}{chapter}{List of Figures} % Add List of figures into contents without any numeration 
-
-
-
-
-
 % -------------------  INTRODUCTION  ---------------------
-\chapter{Introducción}
-\input{Introduction} % Section/Chapter entries can be done in the Main.tex file or in a  
-                       % separate tex file for longer and more complex documents
-
-
+\input{Introduction} 
 % -------------------  MATERIALS AND METHODS  ---------------------
-\chapter{DataFrame y Métodos}
-\input{Materials and Methods} % Section/Chapter entries can be done in the Main.tex file or in a  
-                       % separate tex file for longer and more complex documents
-
-
-
+\input{Materials and Methods} 
 % -------------------  RESULTS  ---------------------
-\chapter{Resultados}
-\input{Results} % Section/Chapter entries can be done in the Main.tex file or in a  
-                       % separate tex file for longer and more complex documents
-
+\input{Results} 
 % -------------------  DISCUSSION  ---------------------
-%\chapter{Discusión}
-%\input{Discussion} % Section/Chapter entries can be done in the Main.tex file or in a  
-                       % separate tex file for longer and more complex documents
-
-                       
+%\chapter{Discusión}   
 % -------------------  CONCLUSION AND FUTURE OUTLOOK  ---------------------
-\chapter{Conclusión}
-\input{Conclusion and Future Outlook} % Section/Chapter entries can be done in the Main.tex file or in a  
-                       % separate tex file for longer and more complex documents                       
-% -------------------  BIBLIOGRAPHY ---------------------
+%\input{Conclusion and Future Outlook}
 \newpage
 \bibliographystyle{elsarticle-num.bst}
 \bibliography{References}
 \addcontentsline{toc}{chapter}{References} % Adds References Section to Table of Contents
 % -------------------  Appendix  ---------------------
 %\chapter*{Appendix}
-%\addcontentsline{toc}{chapter}{Appendix}
-%\input{Appendix} % Section/Chapter entries can be done in the Main.tex file or in a  
-                       % separate tex file for longer and more complex documents                       
-
 \end{document}
 %  -------------------------------------------------
 %  --------- The document ends from here ----------- 
