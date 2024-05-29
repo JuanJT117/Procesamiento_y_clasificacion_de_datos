@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  22 MAY 2024 22:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  26 MAY 2024 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,11 +990,43 @@ l.173 \newpage
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
-) (Materials and Methods.tex [2
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7  G
+      enerar información estadística que nos permita visualizar los elemen...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10  R
+       ealizar una comparativa entre el numero de menciones y la estadístic...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2
 
 ]
 Cap\'{\i }tulo 2.
-[3
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 42.
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 42.
+) (Materials and Methods.tex [3
 
 ]
 Cap\'{\i }tulo 3.
@@ -1028,20 +1060,20 @@ L3 programming layer <2024-04-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24879 strings out of 474370
- 430852 string characters out of 5740535
- 1929754 words of memory out of 5000000
- 46791 multiletter control sequences out of 15000+600000
- 570014 words of font info for 107 fonts, out of 8000000 for 9000
+ 24925 strings out of 474370
+ 431748 string characters out of 5740535
+ 1942754 words of memory out of 5000000
+ 46811 multiletter control sequences out of 15000+600000
+ 572199 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,5n,96p,2343b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,96p,2343b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\juanj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1200.pk><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/
 Arimo-Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google
 /arimo/Arimo.pfb>
-Output written on Main.pdf (7 pages, 394766 bytes).
+Output written on Main.pdf (7 pages, 403747 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 39494 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 47694 words of extra memory for PDF output out of 51595 (max. 10000000)
 

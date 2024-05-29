@@ -1,13 +1,47 @@
 \chapter{Introducción}
 
-En el presente trabajo se realiza el análisis estadístico de texto, empleando como fuente a los comentarios de la transmisión en vivo del primer debate presidencial, realizado el día 7 de abril del 2024; los comentarios presentan una estructura lingüística mal estructurada, de igual forma, se identifican emojis entre apalabras o comentarios completos a partir de los mismos.\\
+En el presente trabajo se realiza el análisis estadístico de texto, empleando como fuente a los comentarios de la transmisión en vivo del primer debate presidencial, realizado el día 7 de abril del 2024; los comentarios presentan una estructura lingüística mal estructurada, de igual forma, se identifican Emojis entre apalabras o comentarios completos a partir de los mismos.\\
 
 
-El objetivo principal es generar información estadística que nos permita visualizar los elementos característicos, palabras, que forman parte de los comentarios, frecuencia en palabras 
+\section{Primer objetivo}\\
+ Generar información estadística que nos permita visualizar los elementos característicos, que forman parte de los comentarios, como son, la frecuencia palabras, votos a los comentarios (Top 10 de votos), frecuencias de participación en los comentarios (Top 10 de Usuarios) y la relación entre los votos y las replicas.\\
+
+\section{Segundo objetivo}\\
+ Realizar una comparativa entre el numero de menciones y la estadística de intención de voto previo a este debate, a modo de comparación estadística entre la expresión del nombre de los candidatos en los comentarios y la intención de voto documentada hasta ese momento.\\
+   
 
 
+\chapter{descripción de los datos}
 
-\section{descripción de los datos}
+
+Se identifican un total de 4307 comentarios de los cuales 1955 presentan algún tipo de comentario textuales ademas de Emojis, en el cuadro \ref{tab:T1} podemos observar una muestra representativa del conjunto de datos, de este conjunto emplearemos las columnas siguientes:\\
+
+\begin{itemize}
+	\item text : Comentario del Usuario.
+	\item author : Nombre de usuario que realiza el comentario.
+	\item votes : numero de votos recibidos 
+	\item replies : nuemero de replicas en los comentarios.
+\end{itemize} 
+
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{cccccccccccc}
+			\rowcolor[HTML]{9B9B9B} 
+			\textbf{ID}             & \textbf{cid}                & \textbf{text}                                      & \textbf{time}           & \textbf{author}         & \textbf{channel}          & \textbf{votes}          & \textbf{replies}        & \textbf{photo}                                     & \textbf{heart}          & \textbf{reply}          & \textbf{time\_parsed}   \\
+			0                       & UgzVmjrPVgiEb9gxD2N4AaABAg  & El reloj debió verse en todo momento, para ten...  & hace 1 mes              & @celinaramirez6363      & UC-oQlmqtSqqEG8633yeZy4A  & 394                     & 16.0                    & https://yt3.ggpht.com/ytc/AIdro\_l9HnHSaojeSTDn... & False                   & False                   & 1.713569e+09            \\
+			1                       & UgyC-sngHzjL9TgI7mt4AaABAg  & Me uno a exigir que pongan los relojes de los ...  & hace 1 mes              & @puellacodicum8569      & UC4SVihkvZdpk5wZota2sB3A  & 555                     & 19.0                    & https://yt3.ggpht.com/ytc/AIdro\_k8piN9LRX35zxX... & False                   & False                   & 1.713569e+09            \\
+			2                       & UgxLxZHrxYmRxBu90od4AaABAg  & Me parece muy bien cómo contestó Maynes, fue d...  & hace 1 mes              & @alondrareal8518        & UCwrXDEdHaf4qoJk0GzUInJA  & 79                      & NaN                     & https://yt3.ggpht.com/ytc/AIdro\_n2uIdu2oU52m0X... & False                   & False                   & 1.713569e+09            \\
+			\multicolumn{1}{l}{...} & \multicolumn{1}{l}{...}     & \multicolumn{1}{l}{...}                            & \multicolumn{1}{l}{...} & \multicolumn{1}{l}{...} & \multicolumn{1}{l}{...}   & \multicolumn{1}{l}{...} & \multicolumn{1}{l}{...} & \multicolumn{1}{l}{...}                            & \multicolumn{1}{l}{...} & \multicolumn{1}{l}{...} & \multicolumn{1}{l}{...} \\
+			1953                    & Ugx9\_f5xw-zIYI8wTJx4AaABAg & Maynes, palero de Claudia \#CrimesAgainstHumani... & hace 2 semanas          & @yamerosolitario2       & UCLD6LO3L0JeD4QITudTJrxw  & 0                       & NaN                     & https://yt3.ggpht.com/ytc/AIdro\_mk4-V9s1KN7G-W... & False                   & False                   & 1.714952e+09            \\
+			1954                    & UgyGU\_RVOlwhj6CpKMZ4AaABAg & Xóchitl Presidente                                 & hace 1 mes              & @marcoantonioarroyo952  & UCM9S0rXpvDM0hHZFiu\_7ykA & 0                       & NaN                     & https://yt3.ggpht.com/ytc/AIdro\_nQnix-VeJ6EdB4... & False                   & False                   & 1.713569e+09            \\
+			1955                    & UgxjINt0jxRu1fpB44x4AaABAg  & Cuánto dinero les pagaste por esos reconocimie...  & hace 1 mes              & @maru641                & UC4uT9ULvwtSo29SmDZte8tg  & 0                       & NaN                     & https://yt3.ggpht.com/POohj0B-XE9089HWJOPG7uzF...  & False                   & False                   & 1.713569e+09           
+		\end{tabular}%
+	}
+	\caption{estructura y contenido de los datos descargados}
+	\label{tab:T1}
+\end{table}
 
 
 
