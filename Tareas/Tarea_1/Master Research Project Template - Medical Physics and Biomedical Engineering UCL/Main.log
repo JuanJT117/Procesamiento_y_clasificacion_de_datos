@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  30 MAY 2024 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  3 JUN 2024 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1039,51 +1039,58 @@ LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
 [3
 
 ]
-<../Datos/Top10Usuarios.png, id=40, 406.1574pt x 446.6286pt>
+<../Datos/Top10Usuarios.png, id=42, 406.1574pt x 446.6286pt>
 File: ../Datos/Top10Usuarios.png Graphic file (type png)
 <use ../Datos/Top10Usuarios.png>
 Package pdftex.def Info: ../Datos/Top10Usuarios.png  used on input line 54.
 (pdftex.def)             Requested size: 398.33858pt x 438.02698pt.
-<../Datos/Top10Votos.png, id=43, 412.6617pt x 328.8285pt>
+
+
+LaTeX Warning: Reference `fig:votosxreplicas' on page 4 undefined on input line
+ 59.
+
+<../Datos/Top10Votos.png, id=44, 412.6617pt x 328.8285pt>
 File: ../Datos/Top10Votos.png Graphic file (type png)
 <use ../Datos/Top10Votos.png>
 Package pdftex.def Info: ../Datos/Top10Votos.png  used on input line 64.
 (pdftex.def)             Requested size: 398.33858pt x 317.41786pt.
- [4 <../Datos/Top10Usuarios.png>]
-<../Datos/Top10Replicas.png, id=52, 406.1574pt x 328.8285pt>
+[4 <../Datos/Top10Usuarios.png>]
+
+LaTeX Warning: Reference `fig:votosxreplicas' on page 5 undefined on input line
+ 69.
+
+<../Datos/Top10Replicas.png, id=51, 406.1574pt x 328.8285pt>
 File: ../Datos/Top10Replicas.png Graphic file (type png)
 <use ../Datos/Top10Replicas.png>
 Package pdftex.def Info: ../Datos/Top10Replicas.png  used on input line 73.
-(pdftex.def)             Requested size: 398.33858pt x 322.49559pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../Datos/VotosXReplicas.png, id=54, 406.1574pt x 312.2064pt>
-File: ../Datos/VotosXReplicas.png Graphic file (type png)
-<use ../Datos/VotosXReplicas.png>
-Package pdftex.def Info: ../Datos/VotosXReplicas.png  used on input line 84.
-(pdftex.def)             Requested size: 398.33858pt x 306.19362pt.
+(pdftex.def)             Requested size: 369.88582pt x 299.46019pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Datos/AcumulacionYdistribuciones.png, id=55, 422.7795pt x 426.393pt>
+
+LaTeX Warning: Reference `fig:votosxreplicas' on page 5 undefined on input line
+ 79.
+
+<../Datos/AcumulacionYdistribuciones.png, id=52, 422.7795pt x 426.393pt>
 File: ../Datos/AcumulacionYdistribuciones.png Graphic file (type png)
 <use ../Datos/AcumulacionYdistribuciones.png>
 Package pdftex.def Info: ../Datos/AcumulacionYdistribuciones.png  used on input
- line 92.
-(pdftex.def)             Requested size: 441.01772pt x 444.81107pt.
+ line 84.
+(pdftex.def)             Requested size: 312.9803pt x 315.67552pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <../Datos/Top10Votos.png>] [6 <../Datos/Top10Replicas.png> <../Datos/VotosXR
-eplicas.png>] [7 <../Datos/AcumulacionYdistribuciones.png>]
+[5 <../Datos/Top10Votos.png>]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+[6 <../Datos/Top10Replicas.png> <../Datos/AcumulacionYdistribuciones.png>]
 Cap\'{\i }tulo 3.
-[8
+[7
 
 ]
 Cap\'{\i }tulo 4.
-) [9
+) [8
 
 ] (Main.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
@@ -1097,7 +1104,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-[10
+[9
 
 ] (Main.aux
 LaTeX Info: Redefining \. on input line 15.
@@ -1107,12 +1114,19 @@ LaTeX Info: Redefining \% on input line 15.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 24998 strings out of 474370
- 433460 string characters out of 5740535
- 1937754 words of memory out of 5000000
- 46864 multiletter control sequences out of 15000+600000
+ 24987 strings out of 474370
+ 433089 string characters out of 5740535
+ 1936754 words of memory out of 5000000
+ 46854 multiletter control sequences out of 15000+600000
  572793 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,96p,2343b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1120,9 +1134,9 @@ Here is how much of TeX's memory you used:
 1200.pk><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/
 Arimo-Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google
 /arimo/Arimo.pfb>
-Output written on Main.pdf (11 pages, 483162 bytes).
+Output written on Main.pdf (10 pages, 471802 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 47711 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 47714 words of extra memory for PDF output out of 51595 (max. 10000000)
 
