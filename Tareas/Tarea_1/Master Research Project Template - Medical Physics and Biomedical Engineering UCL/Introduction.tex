@@ -23,7 +23,7 @@ Del total de datos unicamente consideraremos el siguiente conjunto de columnas:\
 	\item replies : número de replicas en los comentarios.\\
 \end{itemize} 
 
-Se identifican un total de 4307 comentarios publicados en el video de Youtube (URL: https://www.youtube.com/watch?v=kZaucITWv00&t=18s), de los cuales 2352 representan algun comentario sin estructura textual o verbal, correspondiendo a signos puntuales o emojis.\\
+Se identifican un total de 4307 comentarios publicados en el video de Youtube (URL: https://www.youtube.com/watch?v=kZaucITWv00&t=18s), de los cuales 2352 representan algún comentario sin estructura textual o verbal, correspondiendo a signos puntuales o emojis.\\
 
 En total tenemos un conjunto de 1955 participaciones con algún tipo de comentario textuales ademas de Emojis, en el cuadro \ref{tab:T1} podemos observar una muestra representativa del conjunto de datos. \\
 
@@ -46,42 +46,124 @@ En total tenemos un conjunto de 1955 participaciones con algún tipo de comentar
 	\label{tab:T1}
 \end{table}
 
-A partir de los datos podemos generar algunos elementos estadísticos interesantes del conjunto, por ejemplo el top 10 de mensajes por usuario, lo que nos indica la participación dentro de los comentarios, identificando los usuarios mas activos e identificar posteriormente su inclinación política con respecto el debate (ver figura \ref{fig:top10}).\\
+A partir del conjunto de datos se generan estadísticos básicos referente a los datos de interés así como representaciones graficas de las distribuciones de los valores que resultan de interés.\\
+ 
+Como primer elemento de revisión se destaca el top 10 de mensajes por usuario, lo que nos indica la participación dentro de los comentarios, identificando los usuarios mas activos e identificar posteriormente su inclinación política con respecto el debate (ver figura \ref{fig:top10}).\\
 
 
-\begin{figure}[h!]
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=14cm]{../Datos/Top10Usuarios}
+	\includegraphics[width=10cm]{../Datos/Top10Usuarios}
 	\caption{Top 10 de usuarios activos con mas comentarios durante el debate.}
 	\label{fig:top10}
 \end{figure}
 
-En cuanto a la frecuencia de numero de votos, que un porcenpodemos observar que un porcentaje alto de los comentarios no presentan votos, mientras que un porcentaje alto de numero de votos entre 1 y 22 acumulan un alto porcentaje, pero no el mayor, en la figura \ref{fig:votosxreplicas} podemos identificar comentarios individuales con un alto numero de votos, los cuales son poco frecuentes pero muy significativos.\\
-
-
-\begin{figure}[h!]
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[H]
 	\centering
-	\includegraphics[width=14cm]{../Datos/Top10Votos}
+	\begin{tabular}{ll}
+		\hline
+		\multicolumn{2}{c}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{df{[}'author'{]}.describe()}}} \\ \hline
+		\multicolumn{1}{|l|}{count}        & \multicolumn{1}{l|}{1968}                  \\ \hline
+		\multicolumn{1}{|l|}{unique}       & \multicolumn{1}{l|}{1214}                  \\ \hline
+		\multicolumn{1}{|l|}{top}          & \multicolumn{1}{l|}{@DoloresMotaHernandez} \\ \hline
+		\multicolumn{1}{|l|}{freq}         & \multicolumn{1}{l|}{27}                    \\ \hline
+		\multicolumn{1}{|l|}{Name: author} & \multicolumn{1}{l|}{dtype: object}         \\ \hline
+	\end{tabular}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ll}
+		\hline
+		\multicolumn{2}{c}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{df{[}'author'{]}.value\_counts()}}} \\ \hline
+		\multicolumn{1}{|l|}{author}                & \multicolumn{1}{l|}{1968} \\ \hline
+		\multicolumn{1}{|l|}{@DoloresMotaHernandez} & \multicolumn{1}{l|}{27}   \\ \hline
+		\multicolumn{1}{|l|}{@MasterAttitude96}     & \multicolumn{1}{l|}{18}   \\ \hline
+		\multicolumn{1}{|l|}{@erendiradelavega9655} & \multicolumn{1}{l|}{18}   \\ \hline
+		\multicolumn{1}{|l|}{@psicologia\_unam}     & \multicolumn{1}{l|}{17}   \\ \hline
+		\multicolumn{1}{|l|}{@CemeteryGates17}      & \multicolumn{1}{l|}{16}   \\ \hline
+		\multicolumn{1}{|l|}{..}                    & \multicolumn{1}{l|}{}     \\ \hline
+		\multicolumn{1}{|l|}{@EZ5965}               & \multicolumn{1}{l|}{1}    \\ \hline
+		\multicolumn{1}{|l|}{@areval4}              & \multicolumn{1}{l|}{1}    \\ \hline
+		\multicolumn{1}{|l|}{@jimmylies}            & \multicolumn{1}{l|}{1}    \\ \hline
+		\multicolumn{1}{|l|}{@user-jb2hd4jk3f}      & \multicolumn{1}{l|}{1}    \\ \hline
+		\multicolumn{1}{|l|}{@tatianavazquez9617}   & \multicolumn{1}{l|}{1}    \\ \hline
+		\multicolumn{1}{|l|}{Name: count, Length: 1214}              & \multicolumn{1}{l|}{dtype: int64}             \\ \hline
+	\end{tabular}
+\end{table}
+
+Al realizar la estadística correspondiente a los votos, valor que corresponde a likes en los comentarios, podemos observar que un porcentaje alto de los comentarios no presentan votos, mientras que un porcentaje alto de votos se distribuye entre pocos comentarios, pero no el mayor, en la figura \ref{fig:top10V} podemos identificar comentarios individuales con un alto numero de votos, los cuales son poco frecuentes pero muy significativos.\\
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=10cm]{../Datos/Top10Votos}
 	\caption{Top 10 del mayor numero frecuencia de votos en los comentarios.}
 	\label{fig:top10V}
 \end{figure}
 
-En el comportamiento de las replicas podemos identificar una mayor frecuencia en un menor numero de replicas por comentario, es decir la gran mayoria de pocas replicas ocurren mas frecuentemente, al igual que la grafica anterior, podemos observar un comportamiento mas general en la figura \ref{fig:votosxreplicas}, donde se identifican la poca frecuencia de replicas continuas en en comentarios, es decir solo algunos comentarios son significativos y acumulan un alto numero de replicas.\\
-
-\begin{figure}[h!]
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[H]
 	\centering
-	\includegraphics[width=13cm]{../Datos/Top10Replicas}
+	\begin{tabular}{ll}
+		\hline
+		\multicolumn{2}{c}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{df{[}'votes'{]}.describe()}}} \\ \hline
+		\multicolumn{1}{|l|}{count}  & \multicolumn{1}{l|}{170} \\ \hline
+		\multicolumn{1}{|l|}{unique} & \multicolumn{1}{l|}{130} \\ \hline
+		\multicolumn{1}{|l|}{top}    & \multicolumn{1}{l|}{0}   \\ \hline
+		\multicolumn{1}{|l|}{freq}   & \multicolumn{1}{l|}{949} \\ \hline
+		\multicolumn{1}{|l|}{Name: votes}                 & \multicolumn{1}{l|}{dtype: object}                 \\ \hline
+	\end{tabular}
+\end{table}
+
+De forma general podemos ver que la distribución de los valores tiene una distribución exponencial, los valores, de igual forma se observa que aquellos con mayor numero de votos presentan una muy baja frecuencia siendo mas los que presentan pocos votos.\\ 
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ll}
+		\hline
+		\multicolumn{2}{c}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{df{[}'votes'{]}.value\_counts()}}} \\ \hline
+		\multicolumn{1}{|l|}{0}   & \multicolumn{1}{l|}{949} \\ \hline
+		\multicolumn{1}{|l|}{1}   & \multicolumn{1}{l|}{260} \\ \hline
+		\multicolumn{1}{|l|}{2}   & \multicolumn{1}{l|}{123} \\ \hline
+		\multicolumn{1}{|l|}{3}   & \multicolumn{1}{l|}{71}  \\ \hline
+		\multicolumn{1}{|l|}{4}   & \multicolumn{1}{l|}{60}  \\ \hline
+		\multicolumn{1}{|l|}{...} & \multicolumn{1}{l|}{16}  \\ \hline
+		\multicolumn{1}{|l|}{204} & \multicolumn{1}{l|}{1}   \\ \hline
+		\multicolumn{1}{|l|}{112} & \multicolumn{1}{l|}{1}   \\ \hline
+		\multicolumn{1}{|l|}{332} & \multicolumn{1}{l|}{1}   \\ \hline
+		\multicolumn{1}{|l|}{567} & \multicolumn{1}{l|}{1}   \\ \hline
+		\multicolumn{1}{|l|}{80}  & \multicolumn{1}{l|}{1}   \\ \hline
+		\multicolumn{1}{|l|}{Name: count, Length: 130,}             & \multicolumn{1}{l|}{dtype: int64}             \\ \hline
+	\end{tabular}
+\end{table}
+
+En el comportamiento de las replicas podemos identificar una mayor frecuencia en un menor numero de replicas por comentario, es decir la gran mayoría de pocas replicas ocurren mas frecuentemente, al igual que la grafica anterior, podemos observar un comportamiento mas general en la figura \ref{fig:votosxreplicas}, donde se identifican la poca frecuencia de replicas continuas en en comentarios, es decir solo algunos comentarios son significativos y acumulan un alto numero de replicas.\\
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=10cm]{../Datos/Top10Replicas}
 	\caption{Top 10 del mayor numero de frecuencias de replicas en los comentarios.}
 	\label{fig:top10R}
 \end{figure}
 
 
-Al observar la distribución de votos Vs replicas de los comentarios, se puede identificar una relación entre los comentarios con mayor numero de votos y los comentarios con mayor numero de replicas, (ver figura \ref{fig:FyD}).\\
+Al observar la distribución de votos Vs replicas de los comentarios, se puede identificar una relación entre los comentarios con mayor numero de votos y los comentarios con mayor numero de replicas, en ambos conjuntos de datos se observa una distribución de tipo exponencial, teniendo los numero altos de participaciones y replicas una probabilidad significativamente menor siendo mayor las replicas a los votos (ver figura \ref{fig:FyD}).\\
 
 
-\begin{figure}[h!]
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=11cm]{../Datos/AcumulacionYdistribuciones}
+	\includegraphics[width=13cm]{../Datos/AcumulacionYdistribuciones}
 	\caption{grafico de frecuencias y distribución}
 	\label{fig:FyD}
 \end{figure}
@@ -90,6 +172,30 @@ Al observar la distribución de votos Vs replicas de los comentarios, se puede i
 
 \section{Metodología}
 
+Antes de iniciar necesitamos hacer algunos arreglos en el texto, iniciamos con eliminar espacios no justificados y expresiones no verbales y emojis insertados en el texto, quedándonos unicamente con palabras.\\
+
+parte de este procesado lo realizamos con la librería "Matplotlib", mientras que la eliminación de espacios, saltos de paginas y emojis los realizamos con la librería "re"
+
+\begin{lstlisting}
+import re
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+
+from nltk.stem.snowball import SnowballStemmer
+
+nltk.download('stopwords')
+nltk.download('punkt')
+
+def tokens(txt):
+	ComYT_limpio = re.sub(r'[^\w\s]', '', txt.lower())
+	
+	stop_words = set(stopwords.words('spanish'))## filtramos stordswords 
+	tokens = word_tokenize(ComYT_limpio)
+	
+	ComYT_filtrado = [word for word in tokens if word not in stop_words]
+	return ComYT_filtrado
+\end{lstlisting}
 
 
 
