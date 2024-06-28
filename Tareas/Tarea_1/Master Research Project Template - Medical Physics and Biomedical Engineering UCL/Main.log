@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  20 JUN 2024 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  28 JUN 2024 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,9 +1020,19 @@ or  <return>  to continue without it.
 [2
 
 ]
+Overfull \hbox (91.96146pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.96146pt too wide) in paragraph at lines 35--36
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[3]
 Cap\'{\i }tulo 2.
 ! Misplaced alignment tab character &.
-l.26 ...tps://www.youtube.com/watch?v=kZaucITWv00&
+l.52 ...tps://www.youtube.com/watch?v=kZaucITWv00&
                                                   t=18s), de los cuales 2352...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1032,62 +1042,52 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 45.
+(Font)              scaled to size 10.0pt on input line 71.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 45.
-[3
+(Font)              scaled to size 10.0pt on input line 71.
+[4
 
 ]
-<../Datos/Top10Usuarios.png, id=42, 406.1574pt x 446.6286pt>
+<../Datos/Top10Usuarios.png, id=65, 406.1574pt x 446.6286pt>
 File: ../Datos/Top10Usuarios.png Graphic file (type png)
 <use ../Datos/Top10Usuarios.png>
-Package pdftex.def Info: ../Datos/Top10Usuarios.png  used on input line 56.
+Package pdftex.def Info: ../Datos/Top10Usuarios.png  used on input line 82.
 (pdftex.def)             Requested size: 284.52756pt x 312.8764pt.
- [4 <../Datos/Top10Usuarios.png>]
-<../Datos/Top10Votos.png, id=52, 412.6617pt x 328.8285pt>
+ [5 <../Datos/Top10Usuarios.png>]
+<../Datos/Top10Votos.png, id=75, 412.6617pt x 328.8285pt>
 File: ../Datos/Top10Votos.png Graphic file (type png)
 <use ../Datos/Top10Votos.png>
-Package pdftex.def Info: ../Datos/Top10Votos.png  used on input line 105.
+Package pdftex.def Info: ../Datos/Top10Votos.png  used on input line 131.
 (pdftex.def)             Requested size: 284.52756pt x 226.72633pt.
- [5 <../Datos/Top10Votos.png>]
+ [6 <../Datos/Top10Votos.png>]
 
-LaTeX Warning: Reference `fig:votosxreplicas' on page 6 undefined on input line
- 151.
+LaTeX Warning: Reference `fig:votosxreplicas' on page 7 undefined on input line
+ 175.
 
-<../Datos/Top10Replicas.png, id=60, 406.1574pt x 328.8285pt>
+<../Datos/Top10Replicas.png, id=84, 406.1574pt x 328.8285pt>
 File: ../Datos/Top10Replicas.png Graphic file (type png)
 <use ../Datos/Top10Replicas.png>
-Package pdftex.def Info: ../Datos/Top10Replicas.png  used on input line 155.
+Package pdftex.def Info: ../Datos/Top10Replicas.png  used on input line 179.
 (pdftex.def)             Requested size: 284.52756pt x 230.35399pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6]
-<../Datos/AcumulacionYdistribuciones.png, id=69, 422.7795pt x 426.393pt>
+[7]
+<../Datos/AcumulacionYdistribuciones.png, id=92, 422.7795pt x 426.393pt>
 File: ../Datos/AcumulacionYdistribuciones.png Graphic file (type png)
 <use ../Datos/AcumulacionYdistribuciones.png>
 Package pdftex.def Info: ../Datos/AcumulacionYdistribuciones.png  used on input
- line 166.
+ line 190.
 (pdftex.def)             Requested size: 369.88582pt x 373.06693pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <../Datos/Top10Replicas.png>] [8 <../Datos/AcumulacionYdistribuciones.png>]
+[8 <../Datos/Top10Replicas.png>] [9 <../Datos/AcumulacionYdistribuciones.png>]
 Cap\'{\i }tulo 3.
+[10
 
-Overfull \hbox (91.96146pt too wide) in paragraph at lines 193--194
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (91.96146pt too wide) in paragraph at lines 196--197
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[9
-
-] [10]
+]
 Cap\'{\i }tulo 4.
 ) [11
 
@@ -1130,7 +1130,7 @@ Here is how much of TeX's memory you used:
 1200.pk><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/
 Arimo-Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google
 /arimo/Arimo.pfb>
-Output written on Main.pdf (13 pages, 481600 bytes).
+Output written on Main.pdf (13 pages, 481467 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)

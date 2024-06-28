@@ -9,6 +9,32 @@ En el presente trabajo se realiza el análisis estadístico de texto, empleando 
 \section{Segundo objetivo}\\
  Realizar una comparativa entre el numero de menciones y la estadística de intención de voto previo a este debate, a modo de comparación estadística entre la expresión del nombre de los candidatos en los comentarios y la intención de voto documentada hasta ese momento.\\
    
+\section{Metodología}
+
+Antes de iniciar necesitamos hacer algunos arreglos en el texto, iniciamos con eliminar espacios no justificados y expresiones no verbales y emojis insertados en el texto, quedándonos unicamente con palabras.\\
+
+parte de este procesado lo realizamos con la librería "Matplotlib", mientras que la eliminación de espacios, saltos de paginas y emojis los realizamos con la librería "re"
+
+\begin{lstlisting}
+	import re
+	import nltk
+	from nltk.corpus import stopwords
+	from nltk.tokenize import word_tokenize
+	
+	from nltk.stem.snowball import SnowballStemmer
+	
+	nltk.download('stopwords')
+	nltk.download('punkt')
+	
+	def tokens(txt):
+	ComYT_limpio = re.sub(r'[^\w\s]', '', txt.lower())
+	
+	stop_words = set(stopwords.words('spanish'))## filtramos stordswords 
+	tokens = word_tokenize(ComYT_limpio)
+	
+	ComYT_filtrado = [word for word in tokens if word not in stop_words]
+	return ComYT_filtrado
+\end{lstlisting}
 
 
 \chapter{descripción de los datos}
@@ -107,9 +133,7 @@ Al realizar la estadística correspondiente a los votos, valor que corresponde a
 	\label{fig:top10V}
 \end{figure}
 
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+
 \begin{table}[H]
 	\centering
 	\begin{tabular}{ll}
@@ -170,32 +194,6 @@ Al observar la distribución de votos Vs replicas de los comentarios, se puede i
 
 \chapter{Procesado de los comentarios}
 
-\section{Metodología}
-
-Antes de iniciar necesitamos hacer algunos arreglos en el texto, iniciamos con eliminar espacios no justificados y expresiones no verbales y emojis insertados en el texto, quedándonos unicamente con palabras.\\
-
-parte de este procesado lo realizamos con la librería "Matplotlib", mientras que la eliminación de espacios, saltos de paginas y emojis los realizamos con la librería "re"
-
-\begin{lstlisting}
-import re
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-
-from nltk.stem.snowball import SnowballStemmer
-
-nltk.download('stopwords')
-nltk.download('punkt')
-
-def tokens(txt):
-	ComYT_limpio = re.sub(r'[^\w\s]', '', txt.lower())
-	
-	stop_words = set(stopwords.words('spanish'))## filtramos stordswords 
-	tokens = word_tokenize(ComYT_limpio)
-	
-	ComYT_filtrado = [word for word in tokens if word not in stop_words]
-	return ComYT_filtrado
-\end{lstlisting}
 
 
 
