@@ -21,18 +21,24 @@
  
  -Análisis de sentimientos utilizando técnicas de análisis de texto. 
 
+-[Tarea 2: Analisis de sentimiento comentarios del primer debate presidencial 2024]()
+-[Tarea 2: (codigo): Analisis de sentimiento comentarios del primer debate presidencial 2024]()
 ## Sesión 3: Análisis de Texto. Clasificación 
 
  -Aplicaciones de análisis de texto en la clasificación de documentos. 
  
  -Ejemplos prácticos y casos de estudio. 
- 
+
+-[Tarea 2: Analisis de sentimiento comentarios del primer debate presidencial 2024]()
+-[Tarea 2: (codigo): Analisis de sentimiento comentarios del primer debate presidencial 2024]()
 ## Sesión 4: Análisis de Imágenes 
 
  -Introducción al análisis de imágenes en Ciencia de Datos. 
  
  -Extracción de características y representación de imágenes. 
- 
+
+-[Tarea 3: Tecnicas de agrupamiento en comentarios del primer debate presidencial 2024]()
+-[Tarea 3: (codigo): ATecnicas de agrupamiento en comentarios del primer debate presidencial 2024]()
 ## Sesión 5: Análisis de Imágenes
 
  -Redes neuronales convolucionales (CNN) para clasificación de imágenes. 
@@ -44,6 +50,8 @@
  -Aplicaciones de análisis de imágenes: detección de objetos, segmentación semántica. 
  
  -Ejemplos de casos prácticos. 
+
+ - [Tarea 5: Streamlit en el analisis de comentarios de videos en YouTube]()
 
 ## Sesión 7: Análisis de Audio 
 
