@@ -11,7 +11,9 @@
 
 -Representación de texto: bolsa de palabras 
 
--[Clase 1: procesamiento de textos, analis de texto]()
+-[Clase 1: procesamiento de textos, analis de texto](Clases\clase1.ipynb)
+-[Tarea 1: Analisis de comentarios del primer debate presidencial 2024](Tareas\Tarea_1\Template -Tareas-MCD-UANL\Tareas-1-MCD-UANL.pdf)
+-[Tarea 1 (codigo): Analisis de comentarios del primer debate presidencial 2024](Tareas\Tarea_1\Datos\YCD.ipynb)
  
 ## Sesión 2: Análisis de Texto 
 
