@@ -4,7 +4,7 @@ En el presente trabajo se realiza el análisis estadístico de texto, empleando 
 
 
 \section{Primer objetivo}
- Generar información estadística que nos permita visualizar los elementos característicos, que forman parte de los comentarios, como son, la frecuencia palabras, votos a los comentarios (Top 10 de votos), frecuencias de participación en los comentarios (Top 10 de Usuarios) y la relación entre los votos y las replicas.\\
+ Generar información estadística que nos permita visualizar los elementos característicos, que forman parte de los comentarios, como son, la frecuencia palabras, autores o usuarios con mas participación, votos a los comentarios (Top 10 de autores con mas votos), frecuencias de participación en los comentarios (Top 10 de autores con mas replicas) y la relación entre los votos y las replicas.\\
 
 \section{Segundo objetivo}
  Realizar una comparativa entre el numero de menciones y la estadística de intención de voto previo a este debate, a modo de comparación estadística entre la expresión del nombre de los candidatos en los comentarios y la intención de voto documentada hasta ese momento.\\
@@ -23,7 +23,7 @@ Del total de datos unicamente consideraremos el siguiente conjunto de columnas:\
 	\item replies : número de replicas en los comentarios.\\
 \end{itemize} 
 
-Se identifican un total de 1969 comentarios publicados en el video de Youtube (URL: https://www.youtube.com/watch?v=kZaucITWv00\&t=18s), un conteo total de datos de 18958, de los cuales destaca como Top la palabra claudia con un conteo de 419.\\
+Se identifican un total de 1969 comentarios publicados en el video de Youtube (URL: https://www.youtube.com/watch?v=kZaucITWv00\&t=18s), un conteo total de datos de 18958, de los cuales destaca como Top la palabra claudia con un conteo de 419; continuación se muestra un ejemplo de los datos y su distribución.\\
 
 
 \begin{table}[H]
@@ -46,139 +46,99 @@ Se identifican un total de 1969 comentarios publicados en el video de Youtube (U
 \end{table}
 
 A partir del conjunto de datos se generan estadísticos básicos referente a los datos de interés así como representaciones graficas de las distribuciones de los valores que resultan de interés.\\
+
+ \section{Análisis estadístico básico}
  
-Como primer elemento de revisión se destaca el top 10 de mensajes por usuario, lo que nos indica la participación dentro de los comentarios, identificando los usuarios mas activos e identificar posteriormente su inclinación política con respecto el debate (ver figura \ref{fig:top10}).\\
-
-
+ Del total los 1969 comentarios, se identifican 1214 usuarios de los cuales @DoloresMotaHernandez es la que presenta mayor participación, con un total de 27 comentarios en el video.\\
+ 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=10cm]{../Datos/Top10Usuarios}
-	\caption{Top 10 de usuarios activos con mas comentarios durante el debate.}
-	\label{fig:top10}
+	\includegraphics[width=15cm]{../Datos/top10autores}
+	\caption{Top 10 de autores con más comentarios.}
+	\label{fig:top10A}
 \end{figure}
 
-\begin{table}[H]
-	\centering
-	\begin{tabular}{ll}
-		\hline
-		\multicolumn{2}{c}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{df{[}'author'{]}.describe()}}} \\ \hline
-		\multicolumn{1}{|l|}{count}        & \multicolumn{1}{l|}{1968}                  \\ \hline
-		\multicolumn{1}{|l|}{unique}       & \multicolumn{1}{l|}{1214}                  \\ \hline
-		\multicolumn{1}{|l|}{top}          & \multicolumn{1}{l|}{@DoloresMotaHernandez} \\ \hline
-		\multicolumn{1}{|l|}{freq}         & \multicolumn{1}{l|}{27}                    \\ \hline
-		\multicolumn{1}{|l|}{Name: author} & \multicolumn{1}{l|}{dtype: object}         \\ \hline
-	\end{tabular}
-\end{table}
+Si observamos el numero de votos con relación a los autores, la gran mayoría de los votos se concentran en pocos comentarios, como se puede observar en el top 10 de autores con más votos.\\
 
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
-\begin{table}[H]
-	\centering
-	\begin{tabular}{ll}
-		\hline
-		\multicolumn{2}{c}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{df{[}'author'{]}.value\_counts()}}} \\ \hline
-		\multicolumn{1}{|l|}{author}                & \multicolumn{1}{l|}{1968} \\ \hline
-		\multicolumn{1}{|l|}{@DoloresMotaHernandez} & \multicolumn{1}{l|}{27}   \\ \hline
-		\multicolumn{1}{|l|}{@MasterAttitude96}     & \multicolumn{1}{l|}{18}   \\ \hline
-		\multicolumn{1}{|l|}{@erendiradelavega9655} & \multicolumn{1}{l|}{18}   \\ \hline
-		\multicolumn{1}{|l|}{@psicologia\_unam}     & \multicolumn{1}{l|}{17}   \\ \hline
-		\multicolumn{1}{|l|}{@CemeteryGates17}      & \multicolumn{1}{l|}{16}   \\ \hline
-		\multicolumn{1}{|l|}{..}                    & \multicolumn{1}{l|}{}     \\ \hline
-		\multicolumn{1}{|l|}{@EZ5965}               & \multicolumn{1}{l|}{1}    \\ \hline
-		\multicolumn{1}{|l|}{@areval4}              & \multicolumn{1}{l|}{1}    \\ \hline
-		\multicolumn{1}{|l|}{@jimmylies}            & \multicolumn{1}{l|}{1}    \\ \hline
-		\multicolumn{1}{|l|}{@user-jb2hd4jk3f}      & \multicolumn{1}{l|}{1}    \\ \hline
-		\multicolumn{1}{|l|}{@tatianavazquez9617}   & \multicolumn{1}{l|}{1}    \\ \hline
-		\multicolumn{1}{|l|}{Name: count, Length: 1214}              & \multicolumn{1}{l|}{dtype: int64}             \\ \hline
-	\end{tabular}
-\end{table}
-
-Al realizar la estadística correspondiente a los votos, valor que corresponde a likes en los comentarios, podemos observar que un porcentaje alto de los comentarios no presentan votos, mientras que un porcentaje alto de votos se distribuye entre pocos comentarios, pero no el mayor, en la figura \ref{fig:top10V} podemos identificar comentarios individuales con un alto numero de votos, los cuales son poco frecuentes pero muy significativos.\\
+En cuanto a los datos estadísticos de los votos, podemos observar un conteo de 1021 comentarios con votos, de los cuales, el valor minimo corresponde a 1 voto,el 25\% 1 voto, el 50\% 4 voto, el 75\% 15 voto, presentando una menor distribución los valores mas altos de votos, se identifica el valor máximo a 1200 votos.\\
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=10cm]{../Datos/Top10Votos}
-	\caption{Top 10 del mayor numero frecuencia de votos en los comentarios.}
-	\label{fig:top10V}
+	\includegraphics[width=15cm]{../Datos/top10autoresMasVotos}
+	\caption{Top 10 de autores con comentarios más votados.}
+	\label{fig:top10AMV}
 \end{figure}
 
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}{ll}
-		\hline
-		\multicolumn{2}{c}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{df{[}'votes'{]}.describe()}}} \\ \hline
-		\multicolumn{1}{|l|}{count}  & \multicolumn{1}{l|}{170} \\ \hline
-		\multicolumn{1}{|l|}{unique} & \multicolumn{1}{l|}{130} \\ \hline
-		\multicolumn{1}{|l|}{top}    & \multicolumn{1}{l|}{0}   \\ \hline
-		\multicolumn{1}{|l|}{freq}   & \multicolumn{1}{l|}{949} \\ \hline
-		\multicolumn{1}{|l|}{Name: votes}                 & \multicolumn{1}{l|}{dtype: object}                 \\ \hline
-	\end{tabular}
-\end{table}
-
-De forma general podemos ver que la distribución de los valores tiene una distribución exponencial, los valores, de igual forma se observa que aquellos con mayor numero de votos presentan una muy baja frecuencia siendo mas los que presentan pocos votos.\\ 
-
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
-\begin{table}[H]
-	\centering
-	\begin{tabular}{ll}
-		\hline
-		\multicolumn{2}{c}{\cellcolor[HTML]{000000}{\color[HTML]{FFFFFF} \textbf{df{[}'votes'{]}.value\_counts()}}} \\ \hline
-		\multicolumn{1}{|l|}{0}   & \multicolumn{1}{l|}{949} \\ \hline
-		\multicolumn{1}{|l|}{1}   & \multicolumn{1}{l|}{260} \\ \hline
-		\multicolumn{1}{|l|}{2}   & \multicolumn{1}{l|}{123} \\ \hline
-		\multicolumn{1}{|l|}{3}   & \multicolumn{1}{l|}{71}  \\ \hline
-		\multicolumn{1}{|l|}{4}   & \multicolumn{1}{l|}{60}  \\ \hline
-		\multicolumn{1}{|l|}{...} & \multicolumn{1}{l|}{16}  \\ \hline
-		\multicolumn{1}{|l|}{204} & \multicolumn{1}{l|}{1}   \\ \hline
-		\multicolumn{1}{|l|}{112} & \multicolumn{1}{l|}{1}   \\ \hline
-		\multicolumn{1}{|l|}{332} & \multicolumn{1}{l|}{1}   \\ \hline
-		\multicolumn{1}{|l|}{567} & \multicolumn{1}{l|}{1}   \\ \hline
-		\multicolumn{1}{|l|}{80}  & \multicolumn{1}{l|}{1}   \\ \hline
-		\multicolumn{1}{|l|}{Name: count, Length: 130,}             & \multicolumn{1}{l|}{dtype: int64}             \\ \hline
-	\end{tabular}
-\end{table}
-
-En el comportamiento de las replicas podemos identificar una mayor frecuencia en un menor numero de replicas por comentario, es decir la gran mayoría de pocas replicas ocurren mas frecuentemente, al igual que la grafica anterior, podemos observar un comportamiento mas general en la figura (FALTA), donde se identifican la poca frecuencia de replicas continuas en en comentarios, es decir solo algunos comentarios son significativos y acumulan un alto numero de replicas.\\
+Podemos identificar un numero que solo un pequeño numero de comentarios recibieron replicas, es decir comentarios dentro de ellos. correspondiendo a 201 comentarios con replicas, ademas se observa una distribución menos dispersa en comparación con el numero de votos, se observa una media de 4.5 replicas, desviación estándar de 6.1, valor mínimo de 1, el 25\% con valor de 1, el 50\% con un valor de 2, el 75\% corresponde a 5 replicas y el valor máximo llega a 42 replicas.\\
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=10cm]{../Datos/Top10Replicas}
-	\caption{Top 10 del mayor numero de frecuencias de replicas en los comentarios.}
-	\label{fig:top10R}
+	\includegraphics[width=15cm]{../Datos/top10autoresMasReplicas}
+	\caption{Top 10 de comentarios de autores con mayor numero de replicas.}
+	\label{fig:top10AMR}
 \end{figure}
 
-
-Al observar la distribución de votos Vs replicas de los comentarios, se puede identificar una relación entre los comentarios con mayor numero de votos y los comentarios con mayor numero de replicas, en ambos conjuntos de datos se observa una distribución de tipo exponencial, teniendo los numero altos de participaciones y replicas una probabilidad significativamente menor siendo mayor las replicas a los votos (ver figura \ref{fig:FyD}).\\
-
-
+Al comparar la distribución de los votos contra las replicas, podemos notar una correlación entre aquellos mensajes que presentan un numero alto de votos y los que cuentan un con interacción en los comentarios , es decir un mayor numero de replicas, esto también se observa en las graficas anteriores donde podemos notar como algunos autores repiten en los Top.\\
+  
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=13cm]{../Datos/AcumulacionYdistribuciones}
-	\caption{grafico de frecuencias y distribución}
-	\label{fig:FyD}
+	\includegraphics[width=15cm]{../Datos/DistribucionVotosVsReplicas}
+	\caption{Top 10 de comentarios de autores con mayor numero de replicas.}
+	\label{fig:DVVR}
 \end{figure}
 
 \chapter{Análisis de los comentarios}
 
+Al realizar los estadísticos básicos en los comentarios podemos observar la distribución de las palabras mas recurrentes entre los comentarios, lo a partir de estos datos se genera el siguiente grafico, donde podemos observar la distribución del Top 20 de las palabras mas frecuentes destacando lo siguiente:\\
 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=16cm]{../Datos/top20palabrasMasFrecuentes}
+	\caption{Top 10 de comentarios de autores con mayor numero de replicas.}
+	\label{fig:Top20PMF}
+\end{figure}
 
+En el Top 20 podemos identificar los nombres de los candidatos que se presentaron en el primer debate, a los candidatos se busca relacionar las distintas formas como se les menciona, por lo que se busca homogenizar la escritura empleando filtrado y transformaciones, usando técnicas de stordswords, desidencias y stemmer a fin de concentrar palabras.\\
+
+A la clasificación antes mencionada, se suman formas distintas de mencionar a los candidatos como son claudia, sheinbaum, xochitl, xóchitl, maynez, considerando estas menciones como apoyos directo a cada uno de los candidatos, sumando a su conteo total.\\
+
+Como agregado se incluye la nuve de palabras mas frecuentes, de modo que el lector pueda observar de forma mas grafica las relevancia (frecuencia) de cada palabra y mencionada en los comentarios, lo que representa un mayor peso o interés publico.\\
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=16cm]{../Datos/NuveDePalabras}
+	\caption{Top 10 de comentarios de autores con mayor numero de replicas.}
+	\label{fig:NDP}
+\end{figure}
 
 
 \chapter{Conclusiones}
 
-Según las encuestas y análisis publicados antes del primer debate presidencial en México 2024, las intenciones de voto se distribuían de la siguiente manera:
+Según las encuestas y análisis publicados antes del primer debate presidencial en México 2024, las intenciones de voto se distribuían de la siguiente manera:\\
 
-Claudia Sheinbaum (Morena, PT y PVEM): 49% (según encuesta “flash” publicada el 7 de abril de 2024)
-Xóchitl Gálvez (PRI-PAN-PRD): 26% (según encuesta “flash” publicada el 7 de abril de 2024)
-Jorge Álvarez Máynez (Movimiento Ciudadano): 18% (según encuesta “flash” publicada el 7 de abril de 2024)
+Claudia Sheinbaum (Morena, PT y PVEM): \textbf{49\%}; Xóchitl Gálvez (PRI-PAN-PRD): \textbf{26\%}; Jorge Álvarez Máynez (Movimiento Ciudadano): \textbf{18\%} (según encuesta “flash” publicada el 7 de abril de 2024)\\
+
+La encuesta de El Financiero del 1 de abril de 2024 mostraba que Sheinbaum lideraba con un \textbf{35\%}, seguida de Gálvez con un \textbf{25\%} y Máynez con un \textbf{15\%}.\\
 
 
-La encuesta de El Financiero del 1 de abril de 2024 mostraba que Sheinbaum lideraba con un 35%, seguida de Gálvez con un 25% y Máynez con un 15%.
+La encuesta de FactoMétrica y Reporte Índigo publicada el 9 de abril de 2024 mostraba que Sheinbaum lideraba con un \textbf{69\%}, seguida de Gálvez con un \textbf{26,5\%} y Máynez con un \textbf{4,5\%}.\\
 
-La encuesta de FactoMétrica y Reporte Índigo publicada el 9 de abril de 2024 mostraba que Sheinbaum lideraba con un 69\%, seguida de Gálvez con un 26,5\% y Máynez con un 4,5\%.
 
-La encuesta “flash” publicada el 7 de abril de 2024 mostraba que Sheinbaum lideraba con un 49\%, seguida de Gálvez con un 26\% y Máynez con un 18\%.
+La encuesta “flash” publicada el 7 de abril de 2024 mostraba que Sheinbaum lideraba con un \textbf{49\%}, seguida de Gálvez con un \textbf{26\%} y Máynez con un \textbf{18\%}.\\
+
+Los resultados para los porcentajes de intención de voto los cuales los relacionamos con el apoyo en los comentarios, es decir, cada mención y sus variantes de cada candidato, quedan representados de la siguiente manera:\\
+
+\begin{center}
+	total de veces que se menciona el nombre de algún candidato:  \textbf{896}\\
+
+Porcentaje de menciones de claudia-sheinbaum: \textbf{52.34\%}.\\
+
+Porcentaje de menciones de xochitl-xóchitl: \textbf{36.05\%}.\\
+
+Porcentaje de menciones de Maynez: \textbf{11.61\%.}
+
+\end{center}
+
+Como se puede observar si se identifica una similitud con la tendencia de intención de voto de las encuestadoras y el apoyo mostrado de la población interesada en un candidato, representado por comentarios o menciones de dicho candidato durante un evento publico en el que participan directamente los tres actores políticos.\\
+
+Es posible medir el apoyo directamente por la cantidad de menciones en un debate en vivo, sin embargo la participación solo representa aun sector de la población que cuenta con internet, acceso a youtube mediante una cuenta, y cabe la posibilidad de que algunas participaciones sean Bots pagados.\\

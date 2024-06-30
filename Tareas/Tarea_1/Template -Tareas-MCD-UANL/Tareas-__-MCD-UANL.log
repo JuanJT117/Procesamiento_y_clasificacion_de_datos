@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  29 JUN 2024 20:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  30 JUN 2024 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,43 +1008,58 @@ LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 44.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 44.
-<../Datos/Top10Usuarios.png, id=47, 406.1574pt x 446.6286pt>
-File: ../Datos/Top10Usuarios.png Graphic file (type png)
-<use ../Datos/Top10Usuarios.png>
-Package pdftex.def Info: ../Datos/Top10Usuarios.png  used on input line 55.
-(pdftex.def)             Requested size: 284.52756pt x 312.8764pt.
+<../Datos/top10autores.png, id=51, 703.9098pt x 422.0568pt>
+File: ../Datos/top10autores.png Graphic file (type png)
+<use ../Datos/top10autores.png>
+Package pdftex.def Info: ../Datos/top10autores.png  used on input line 56.
+(pdftex.def)             Requested size: 426.79134pt x 255.89577pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4
 
-] [5 <../Datos/Top10Usuarios.png>]
-<../Datos/Top10Votos.png, id=62, 412.6617pt x 328.8285pt>
-File: ../Datos/Top10Votos.png Graphic file (type png)
-<use ../Datos/Top10Votos.png>
-Package pdftex.def Info: ../Datos/Top10Votos.png  used on input line 101.
-(pdftex.def)             Requested size: 284.52756pt x 226.72633pt.
- [6 <../Datos/Top10Votos.png>]
-<../Datos/Top10Replicas.png, id=70, 406.1574pt x 328.8285pt>
-File: ../Datos/Top10Replicas.png Graphic file (type png)
-<use ../Datos/Top10Replicas.png>
-Package pdftex.def Info: ../Datos/Top10Replicas.png  used on input line 149.
-(pdftex.def)             Requested size: 284.52756pt x 230.35399pt.
-<../Datos/AcumulacionYdistribuciones.png, id=72, 422.7795pt x 426.393pt>
-File: ../Datos/AcumulacionYdistribuciones.png Graphic file (type png)
-<use ../Datos/AcumulacionYdistribuciones.png>
-Package pdftex.def Info: ../Datos/AcumulacionYdistribuciones.png  used on input
- line 160.
-(pdftex.def)             Requested size: 369.88582pt x 373.06693pt.
+]
+<../Datos/top10autoresMasVotos.png, id=58, 711.1368pt x 422.0568pt>
+File: ../Datos/top10autoresMasVotos.png Graphic file (type png)
+<use ../Datos/top10autoresMasVotos.png>
+Package pdftex.def Info: ../Datos/top10autoresMasVotos.png  used on input line 
+67.
+(pdftex.def)             Requested size: 426.79134pt x 253.30042pt.
+ [5 <../Datos/top10autores.png> <../Datos/top10autoresMasVotos.png>]
+<../Datos/top10autoresMasReplicas.png, id=65, 711.1368pt x 422.0568pt>
+File: ../Datos/top10autoresMasReplicas.png Graphic file (type png)
+<use ../Datos/top10autoresMasReplicas.png>
+Package pdftex.def Info: ../Datos/top10autoresMasReplicas.png  used on input li
+ne 76.
+(pdftex.def)             Requested size: 426.79134pt x 253.30042pt.
+<../Datos/DistribucionVotosVsReplicas.png, id=66, 707.5233pt x 716.9184pt>
+File: ../Datos/DistribucionVotosVsReplicas.png Graphic file (type png)
+<use ../Datos/DistribucionVotosVsReplicas.png>
+Package pdftex.def Info: ../Datos/DistribucionVotosVsReplicas.png  used on inpu
+t line 85.
+(pdftex.def)             Requested size: 426.79134pt x 432.46254pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <../Datos/Top10Replicas.png>] [8 <../Datos/AcumulacionYdistribuciones.png>]
+[6 <../Datos/top10autoresMasReplicas.png>] [7 <../Datos/DistribucionVotosVsRepl
+icas.png>]
 Cap\'{\i }tulo 3.
-[9
+<../Datos/top20palabrasMasFrecuentes.png, id=78, 711.1368pt x 422.0568pt>
+File: ../Datos/top20palabrasMasFrecuentes.png Graphic file (type png)
+<use ../Datos/top20palabrasMasFrecuentes.png>
+Package pdftex.def Info: ../Datos/top20palabrasMasFrecuentes.png  used on input
+ line 96.
+(pdftex.def)             Requested size: 455.24408pt x 270.18626pt.
+[8
 
-]
+ <../Datos/top20palabrasMasFrecuentes.png>]
+<../Datos/NuveDePalabras.png, id=84, 372.1905pt x 193.6836pt>
+File: ../Datos/NuveDePalabras.png Graphic file (type png)
+<use ../Datos/NuveDePalabras.png>
+Package pdftex.def Info: ../Datos/NuveDePalabras.png  used on input line 109.
+(pdftex.def)             Requested size: 455.24408pt x 236.90242pt.
+ [9 <../Datos/NuveDePalabras.png>]
 Cap\'{\i }tulo 4.
 ) [10
 
@@ -1064,19 +1079,19 @@ L3 programming layer <2024-04-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24961 strings out of 474370
- 432275 string characters out of 5740535
+ 25013 strings out of 474370
+ 433856 string characters out of 5740535
  1939754 words of memory out of 5000000
- 46823 multiletter control sequences out of 15000+600000
- 572678 words of font info for 138 fonts, out of 8000000 for 9000
+ 46848 multiletter control sequences out of 15000+600000
+ 573609 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,11n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/Arimo-
 Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo
 /Arimo.pfb>
-Output written on Tareas-__-MCD-UANL.pdf (12 pages, 470256 bytes).
+Output written on Tareas-__-MCD-UANL.pdf (12 pages, 716061 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 47194 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 47212 words of extra memory for PDF output out of 51595 (max. 10000000)
 
