@@ -1,0 +1,225 @@
+% ------------------ DOCUMENT SETUP ------------------ 
+% The document class defines the document type (report) and sets the font size (12pt)
+\documentclass[12pt]{report}
+\author{Juan Jesús Torres Solano}
+
+
+% ------------------ PACKAGES ------------------ 
+% Packages add extra commands and features to your LaTeX document. 
+% In here, some of the most common packages for a thesis document have been added 
+
+
+\usepackage{float}% LaTeX's float package
+\usepackage{color}% LaTeX's color package
+\usepackage[spanish]{babel}%lenguaje de indicadortes
+\usepackage{amsmath}% LaTeX's main math package
+\usepackage[format=plain,font=footnotesize,labelfont=bf]{caption}% LaTeX's Caption and subcaption packages
+\usepackage{subcaption}
+\usepackage{graphicx}% The graphicx package provides graphics support for adding pictures.
+\usepackage{longtable}% Longtable allows you to write tables that continue to the next page.
+\usepackage[a4paper, lmargin=2.5cm, rmargin=2.5cm, tmargin=2.5cm, bmargin=2.5cm]{geometry}% The geometry packages defines the page layout (page dimensions, margins, etc)
+\usepackage[sfdefault]{arimo}% Defines the Font of the document, e.g. Arimo font (Check Fonts here: https://tug.org/FontCatalogue/)
+\usepackage[T1]{fontenc}% Font encoding
+\usepackage[utf8]{inputenc}% This package allows the user to specify the input encoding
+\usepackage{emptypage}% This package allows you to add empty pages
+\usepackage{import}% Allows inputs to be imported from a directory
+\usepackage{tocloft}% Provides control over the typography of the Table of Contents, List of Figures and List of Tables
+\usepackage{setspace}% The setspace package controls the line spacing properties.
+\usepackage{titlesec}% Allows the customization of Latex's title styles
+\usepackage{titletoc}% Allows the customization of Latex's table of contents title styles
+\usepackage{etoolbox}% The package provides functions that offer alternative ways of implementing some LATEX kernel commands
+\usepackage{fancyhdr} % Provides extensive facilities for constructing and controlling headers and footers
+% Typographical extensions, namely character protrusion, font expansion, adjustment 
+%of interword spacing and additional kerning
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black,citecolor=black]{hyperref}% Manages hyperlinks 
+\usepackage{bookmark}% Generates PDF bookmarks
+\usepackage[table,xcdraw]{xcolor}% Add color to Tables
+\usepackage{gensymb}% Use these two packages together -- they define symbols
+\usepackage{textcomp}%  for e.g. units that you can use in both text and math mode.
+\usepackage[acronym]{glossaries}% Acronym Package
+\usepackage{matlab-prettifier}% Package for Matlab code
+\usepackage{relsize}% Change font size
+\usepackage{blindtext}% Blindtext (only for template) texto muestra
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{colortbl}
+
+\usepackage{listings}
+
+
+% Controls how many subsections the document can take
+%  and how many of those will get put into the contents pages.
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+% Line Spacing
+\setstretch{1}
+
+
+% Places a dot after Chapter/Section/Subsection number in Table of Contents
+\renewcommand{\cftchapaftersnum}{.}
+\renewcommand{\cftsecaftersnum}{.}
+\renewcommand{\cftsubsecaftersnum}{.}
+
+%  Customize Dot spacing in Table of Contents/List of Figures/Tables
+\renewcommand{\cftdotsep}{0.3}
+
+
+% Line Break Properties
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+
+% Formatting Table of Contents/Lists titles
+\renewcommand{\contentsname}{\bfseries\LARGE{INDICE}}
+\renewcommand{\listfigurename}{\bfseries\LARGE{LISTA DE FIGURAS}}
+
+% Signature Line for the declaration
+\newbox\namebox
+\newdimen\signboxdim
+
+\def\signature#1{%
+    \setbox\namebox=\hbox{#1}
+    \signboxdim=\dimexpr(\wd\namebox+3cm)
+    \parbox[t]{\signboxdim}{%
+        \centering
+            \hrulefill\\    % for a line
+            #1
+        \par}%
+    }
+
+% Title Formatting customization
+\titleformat{\chapter}{\normalfont\bfseries\LARGE}{\thechapter.}{1em}{\MakeUppercase}
+
+\titleformat{\section}{\normalfont\bfseries\large}{\thesection.}{1em}{\MakeUppercase}
+\titlespacing*{\section} {0pt} {0pt} {15pt} % left, before, after
+
+\titleformat{\subsection}{\normalfont\bfseries\large}{\thesubsection.}{1em}{}
+\titlespacing*{\subsection} {0pt} {10pt} {10pt}
+
+\titleformat{\subsubsection}{\normalfont\bfseries\large}{\thesubsubsection.}{1em}{}
+\titlespacing*{\subsubsection} {0pt} {10pt} {10pt}
+
+
+% HEADER AND FOOTER
+\pagestyle{fancy}  % Set Page Style (Header and Footer Style)
+\fancyhf{}  % Clears the header and footer (from the default info)
+
+% Header
+\renewcommand{\headrulewidth}{0pt}  % Removes the default Horizontal Line in Header
+% Optional Headers
+%\fancyhead[L]{}
+%\fancyhead[R]{2022/2023}
+
+% Footer
+\fancyfoot[C]{\thepage} % Page Number
+
+% Change figure numbering per section
+\numberwithin{figure}{chapter}
+
+
+%  -------------------------------------------------
+%  --------- The document starts from here --------- 
+%  -------------------------------------------------
+
+\begin{document}
+
+
+% ------------------  TITLE PAGE -------------------
+\begin{titlepage}
+\begin{center}
+    % UCL IMAGE
+    \vspace*{-2cm}
+    \makebox[\textwidth]{\includegraphics[width=0.7\paperwidth]{Images/UANL}}
+    
+    \vspace{1.5cm}
+    
+    % Title
+    %{\relscale{1.19}{A thesis submitted in partial fulfilment of the requirements for the degree of Master of Science (MSc) in}}
+
+    \vspace{1cm}
+    {\relscale{1.15}\textbf{Maestría en Ciencia de Datos\\}}
+    \vspace{0.3cm}
+    {\relscale{1.15}\textbf{Universidad Autónoma de Nuevo León\\}}
+    \vspace{2.4cm}
+    
+    {\relscale{2}{Tarea 1 - Análisis estadístico de comentarios del primer debate presidencial}}\\
+    %\vspace{0.1cm}
+    Por\\
+    %\vspace{0.1cm}
+    Juan Jesús Torres Solano\\
+    \vspace{0.9cm}
+    {\begin{singlespace}Profesor: José Alberto Benavides Vázquez \\
+    %Second Supervisor: \\
+	\end{singlespace}}
+\end{center}
+%{\raggedleft\vfill{\begin{singlespace}
+%     Department of Medical Physics\\
+%  and Biomedical Engineering\\
+%\end{singlespace}
+% UNIVERSITY COLLEGE LONDON\\
+% \begin{singlespace}
+% Date of submission: \today\\
+% Word count: WORD COUNT\\
+% \end{singlespace}
+%}\par
+%}
+\end{titlepage}
+
+% ----------------------  DECLARATION -----------------------
+%\newpage
+%\chapter*{Declaration} % the Asterix (*) indicates that this section will be added to the table of contents but no number will be present beside it.
+%\addcontentsline{toc}{chapter}{Declaration}
+%I, YOUR NAME confirm that the work presented in this report is my own. Where information has been derived from other sources, I confirm that this has been indicated in the report.
+%\vspace*{3cm}
+
+%\noindent\signature{YOUR NAME}
+%\newpage
+% ----------------------  ABSTRACT -----------------------
+%\newpage
+%\chapter*{Abstract} % the Asterix (*) indicates that this %section will be added to the table of contents but no %number will be present beside it.
+%\addcontentsline{toc}{chapter}{Abstract}
+%\input{Abstract}
+
+% -----------------  ACKNOWLEDGEMENTS  -------------------
+%\newpage
+%\chapter*{Acknowledgements}
+%\addcontentsline{toc}{chapter}{Acknowledgement}
+%\input{Acknowledgments}
+%\newpage
+% -----------------  ACRONYMS  -------------------
+%\newpage
+%\chapter*{Acronyms}
+%\addcontentsline{toc}{chapter}{Acronyms}
+%\printglossary[type=\acronymtype,nonumberlist,nopostdot]
+%\newpage
+% ------------------  TABLE OF CONTENTS --------------------
+\tableofcontents 
+% -------------------  LIST OF FIGURES --------------------
+\newpage 
+{\let\oldnumberline\numberline       % Uncomment to add the word 'Figure' to figure number in List of Figures
+\renewcommand{\numberline}{\figurename~\oldnumberline}  
+\listoffigures}
+\addcontentsline{toc}{chapter}{ÍNDICE DE FIGURAS} % Add List of figures into contents without any numeration 
+% -------------------  INTRODUCTION  ---------------------
+\input{Introduction} 
+% -------------------  MATERIALS AND METHODS  ---------------------
+%\input{Materials and Methods} 
+% -------------------  RESULTS  ---------------------
+%\input{Results} 
+% -------------------  DISCUSSION  ---------------------
+%\chapter{Discusión}   
+% -------------------  CONCLUSION AND FUTURE OUTLOOK  ---------------------
+%\input{Conclusion and Future Outlook}
+\newpage
+\bibliographystyle{elsarticle-num.bst}
+\bibliography{References}
+\addcontentsline{toc}{chapter}{References} % Adds References Section to Table of Contents
+% -------------------  Appendix  ---------------------
+%\chapter*{Appendix}
+\end{document}
+%  -------------------------------------------------
+%  --------- The document ends from here ----------- 
+%  -------------------------------------------------
