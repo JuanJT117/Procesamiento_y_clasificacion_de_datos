@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  29 JUN 2024 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  30 JUN 2024 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,52 +1004,39 @@ LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
 
 ]
 Cap\'{\i }tulo 2.
+
+! LaTeX Error: File `../Datos/AcumulacionYdistribuciones' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...13cm]{../Datos/AcumulacionYdistribuciones}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 45.
+(Font)              scaled to size 10.0pt on input line 18.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 45.
-<../Datos/Top10Usuarios.png, id=48, 406.1574pt x 446.6286pt>
-File: ../Datos/Top10Usuarios.png Graphic file (type png)
-<use ../Datos/Top10Usuarios.png>
-Package pdftex.def Info: ../Datos/Top10Usuarios.png  used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 312.8764pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(Font)              scaled to size 10.0pt on input line 18.
 [4
 
-] [5 <../Datos/Top10Usuarios.png>]
-<../Datos/Top10Votos.png, id=62, 412.6617pt x 328.8285pt>
-File: ../Datos/Top10Votos.png Graphic file (type png)
-<use ../Datos/Top10Votos.png>
-Package pdftex.def Info: ../Datos/Top10Votos.png  used on input line 102.
-(pdftex.def)             Requested size: 284.52756pt x 226.72633pt.
- [6 <../Datos/Top10Votos.png>]
-<../Datos/Top10Replicas.png, id=71, 406.1574pt x 328.8285pt>
-File: ../Datos/Top10Replicas.png Graphic file (type png)
-<use ../Datos/Top10Replicas.png>
-Package pdftex.def Info: ../Datos/Top10Replicas.png  used on input line 150.
-(pdftex.def)             Requested size: 284.52756pt x 230.35399pt.
- [7 <../Datos/Top10Replicas.png>]
-<../Datos/AcumulacionYdistribuciones.png, id=79, 422.7795pt x 426.393pt>
-File: ../Datos/AcumulacionYdistribuciones.png Graphic file (type png)
-<use ../Datos/AcumulacionYdistribuciones.png>
-Package pdftex.def Info: ../Datos/AcumulacionYdistribuciones.png  used on input
- line 161.
-(pdftex.def)             Requested size: 369.88582pt x 373.06693pt.
- [8 <../Datos/AcumulacionYdistribuciones.png>]
+]
 Cap\'{\i }tulo 3.
-[9
+[5
 
 ]
 Cap\'{\i }tulo 4.
-) [10
+) [6
 
 ] (Tareas-__-MCD-UANL.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [11
+) [7
 
 ] (Tareas-__-MCD-UANL.aux
 LaTeX Info: Redefining \. on input line 15.
@@ -1059,21 +1046,45 @@ LaTeX Info: Redefining \% on input line 15.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 24961 strings out of 474370
- 432726 string characters out of 5740535
- 1939754 words of memory out of 5000000
- 46823 multiletter control sequences out of 15000+600000
- 572678 words of font info for 138 fonts, out of 8000000 for 9000
+ 24902 strings out of 474370
+ 431363 string characters out of 5740535
+ 1929754 words of memory out of 5000000
+ 46799 multiletter control sequences out of 15000+600000
+ 571744 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,11n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/Arimo-
-Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo
-/Arimo.pfb>
-Output written on Tareas-__-MCD-UANL.pdf (12 pages, 470119 bytes).
+ 94i,5n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.10} has been referenced but does not exist
+, replaced by a fixed one
+
+<C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/Arimo-Bo
+ld.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/A
+rimo.pfb>
+Output written on Tareas-__-MCD-UANL.pdf (8 pages, 387242 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 47194 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 47174 words of extra memory for PDF output out of 51595 (max. 10000000)
 
