@@ -1,8 +1,14 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{quiroga2016}
+M.~A.~R. Quiroga, D.~V. Ayala, D.~Pinto, M.~Tovar, B.~Beltr{\'a}n, An{\'a}lisis
+  de sentimientos basado en aspectos: un modelo para identificar la polaridad
+  de cr{\'\i}ticas de usuario, Research in Computing Science 115 (2016)
+  171--180.
 
 \end{thebibliography}
