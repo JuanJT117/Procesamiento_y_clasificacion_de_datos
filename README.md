@@ -12,7 +12,7 @@
 -Representación de texto: bolsa de palabras 
 
 -[Clase 1: procesamiento de textos, analis de texto](Clases/clase1.ipynb)
--[Tarea 1: Analisis de comentarios del primer debate presidencial 2024](Template-Tareas-MCD-UANL/areas-1-MCD-UANL.pdf)
+-[Tarea 1: Analisis de comentarios del primer debate presidencial 2024](Template-Tareas-MCD-UANL/Tareas-1-MCD-UANL.pdf)
 -[Tarea 1 (codigo): Analisis de comentarios del primer debate presidencial 2024](Tareas/Tarea_1/Datos/YCD.ipynb)
  
 ## Sesión 2: Análisis de Texto 
@@ -21,24 +21,24 @@
  
  -Análisis de sentimientos utilizando técnicas de análisis de texto. 
 
--[Tarea 2: Analisis de sentimiento comentarios del primer debate presidencial 2024]()
--[Tarea 2: (codigo): Analisis de sentimiento comentarios del primer debate presidencial 2024]()
+-[Tarea 2: Analisis de sentimiento comentarios del primer debate presidencial 2024](Tarea_2\Template -Tareas-MCD-UANL\Tareas-2-MCD-UANL.pdf)
+-[Tarea 2: (codigo): Analisis de sentimiento comentarios del primer debate presidencial 2024](Tareas\Tarea_2\Datos\YCD.ipynb)
 ## Sesión 3: Análisis de Texto. Clasificación 
 
  -Aplicaciones de análisis de texto en la clasificación de documentos. 
  
  -Ejemplos prácticos y casos de estudio. 
 
--[Tarea 2: Analisis de sentimiento comentarios del primer debate presidencial 2024]()
--[Tarea 2: (codigo): Analisis de sentimiento comentarios del primer debate presidencial 2024]()
+-[Tarea 3: Tecnicas de agrupamiento en comentarios del primer debate presidencial 2024]()
+-[Tarea 3: (codigo): ATecnicas de agrupamiento en comentarios del primer debate presidencial 2024](Tareas\Tarea_3\Datos\Tarea_3.ipynb)
+
 ## Sesión 4: Análisis de Imágenes 
 
  -Introducción al análisis de imágenes en Ciencia de Datos. 
  
  -Extracción de características y representación de imágenes. 
 
--[Tarea 3: Tecnicas de agrupamiento en comentarios del primer debate presidencial 2024]()
--[Tarea 3: (codigo): ATecnicas de agrupamiento en comentarios del primer debate presidencial 2024]()
+
 ## Sesión 5: Análisis de Imágenes
 
  -Redes neuronales convolucionales (CNN) para clasificación de imágenes. 
@@ -65,6 +65,7 @@
  
  -Modelos de aprendizaje profundo para procesamiento de audio. 
  
+ -[Tarea 8: (codigo): reconocimiento de patrones de voz](Tareas\Tarea_8\Datos\Tarea.ipynb)
 ## Sesión 9: Análisis de Audio 
 
  -Aplicaciones de análisis de audio: identificación de sonidos, clasificación de audio. 

@@ -1,42 +1,59 @@
 \chapter{Introducción}
 
-Los comentarios en videos en vivo son parte importante de la respuesta de la audiencia y se entiende que estos comentarios este cargados de palabras emotivas o que representen los sentimientos que las personas intentan comunicar al resto de espectadores, incluso a los mismos creadores del contenido o participantes de la transmisión en vivo, por lo que es de esperar que estos se expresen de forma positiva o negativa, de igual forma estos comentarios pueden ser poco objetivos, claramente objetivos o muy subjetivos.\\
+Los comentarios en videos en vivo son parte importante de la respuesta de la audiencia y se entiende que estos comentarios este cargados de palabras emotivas o que representen los sentimientos que las personas intentan comunicar al resto de espectadores, incluso a los mismos creadores del contenido o participantes de la transmisión en vivo, por lo que es de esperar que estos se expresen de forma positiva o negativa, de igual forma estos comentarios pueden ser poco objetivos, claramente objetivos o muy subjetivos\cite{steven2024}.\\
 
-El análisis de sentimientos implica el procesamiento del lenguaje natural de modo que se logre identificar información subjetiva de un texto en particular, en esta tarea buscamos identificar el sentimiento subjetivo expresado por los usuarios que dejaron un comentario en la transmisión en vivo del primer debate presidencial \cite{quiroga2016}.\\
+El análisis de sentimientos implica el procesamiento del lenguaje natural de modo que se logre identificar información subjetiva de un texto en particular, en esta tarea buscamos identificar el sentimiento subjetivo expresado por los usuarios que dejaron un comentario en la transmisión en vivo del primer debate presidencial \cite{quiroga2016}\cite{steven2024}.\\
 
 \section{Objetivos}
-El objetivo de este trabajo es identificar el sentimiento expresado por los usuarios en los comentarios del debate, teniendo en cuenta los votos que recibieron los comentarios y el sentimiento presente en los comentarios mas botados, al igual que la respuesta general de los sentimientos de la audiencia.\\ 
+El objetivo de este trabajo es identificar el sentimiento expresado por los usuarios en los comentarios del debate, teniendo en cuenta los votos que recibieron los comentarios y el sentimiento presente en aquellos mas votados, al igual que la respuesta general de los sentimientos de la audiencia; y por lo tanto  se requiere establecer su identificación, distribución y cuantificación:\\
 
 \begin{enumerate}
-	\item Identificar la polaridad de los comentarios que la audiencia dejo en el video del debate.\\
+	\item Identificar y cuantificar la polaridad de los comentarios que la audiencia dejo en el video del debate.\\
 	
-	\item Identificar el nivel de objetividad y subjetividad de los comentarios en el video.\\
-	
+	\item Identificar y cuantificar el nivel de objetividad y subjetividad de los comentarios en el video.\\
 \end{enumerate}
+
 
 \chapter{Análisis de sentimiento}
 
-\cite{quiroga2016}, considerando lo siguiente:
+Para el análisis de sentimiento se empleo la librería de TexBlod, la cual tiene como objetivo ofrecer un entorno familiar, cómodo e intuitivo empleado Python, esta librería nos permite emplear su modelos entrenados para clasificar el sentimiento subjetivo reflejado en las palabras empleadas en los comentarios, así como la objetividad de los mismos \cite{steven2024}.\\
+
+A partir de esta clasificación obtendremos una asignación de peso para cada comentario, el cual esta expresado como "Polaridad" este valor representa sentimientos positivos o negativos, haciendo referencia al concepto de polaridad \cite{quiroga2016}, la escala esta representada de la siguiente manera, donde $ c = comentario$ :\\
 
 \begin{itemize}
-	\item Se consideran con polaridad muy negativa los comentarios 
+	\item Se consideran con polaridad muy negativa 
 	\begin{itemize}
-		\item $0> y \geq-1 $
+		\item $ -1\leq C < 0 $
 	\end{itemize}
-	\item Se consideran con polaridad neutral los comentarios 
+	\item Se consideran con polaridad neutral 
 	\begin{itemize}
-		\item $= 0 $
+		\item $ C = 0 $
 	\end{itemize}
-		\item Se consideran con polaridad muy positiva los comentarios 
+		\item Se consideran con polaridad muy positiva 
 	\begin{itemize}
-		\item $0< y  \geq 1 $
+		\item $0< C  \leq 1 $
 	\end{itemize}
 \end{itemize}
 
+Mientras que la objetividad presenta dos limites donde un comentario de puede interpretar como objetivo, es decir presenta una estructura la cual contiene información sin incluir opiniones ni sentimientos, o subjetivo expresando su punto de vista, opinión personal o sentimientos, se clasifica mediante la siguiente escala, donde $ c = comentario$: \\
 
+\begin{itemize}
+	\item Se consideran objetivo
+	\begin{itemize}
+		\item $ C \geq 0 $
+	\end{itemize}
+	\item Se consideran subjetivo
+	\begin{itemize}
+		\item $ C \leq 1 $
+	\end{itemize}
+\end{itemize}
 
-\chapter{Procesado de los comentarios}
+\chapter{Resultados}
 
+A partir de los resultados obtenidos mediante el análisis de sentimientos, podemos observar la distribución de frecuencias de los pesos asignados a la objetividad y polaridad de cada comentario, a partir de esta distribución se observa lo siguiente (ver fig \ref{fig:dpys}).\\
+
+Para una mejor visualización de la distribución las frecuencias esta se representa empleando escala logarítmica.\\
+ 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=16cm]{../Datos/polaridadYsubjetividad}
@@ -44,7 +61,11 @@ El objetivo de este trabajo es identificar el sentimiento expresado por los usua
 	\label{fig:dpys}
 \end{figure}
 
+Podemos observar que la distribución de polaridad se concentra en la porción central, es decir se identifica predominantemente comentarios con mayor tendencia de polaridad neutral, sin embargo se observa un numero mayor de comentario con tendencia negativa que aquellos con tendencia positiva, a partir de este comportamiento podemos concluir que los comentarios de los usuarios son mayormente neutrales (ver fig \ref{fig:dpys}).\\
 
+La subjetividad por otro lado muestra coherencia en la distribución con respecto a la polaridad, se identifica un numero alto de comentarios objetivos mientras que la distribución de los comentarios subjetivos presenta una menor distribución, sin embargo, en conjunto es notorio un aumento de la subjetividad dentro del rango próximo al valor de 1 (ver fig \ref{fig:dpys}).\\
+\clearpage
+ 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=16cm]{../Datos/DisVotosPolaridad}
@@ -52,6 +73,7 @@ El objetivo de este trabajo es identificar el sentimiento expresado por los usua
 	\label{fig:dvp}
 \end{figure}
 
+Al revisar la distribución de los comentarios mas votados y su correspondiente valor de polaridad podemos notar una polaridad dispersa en comentarios con un menor numero de votos, pudiendo significar esto la poca aprobación de comentarios demasiado negativos o positivos.\\
 
 \begin{figure}[!h]
 	\centering
@@ -60,6 +82,12 @@ El objetivo de este trabajo es identificar el sentimiento expresado por los usua
 	\label{fig:dvo}
 \end{figure}
 
+En cuanto a la distribución conjunta de frecuencias de votos y objetividad, podemos destacar la los comentarios con menor numero de votos presentan subjetividad en el texto, sin embargo la distribución de comentarios con algún grado de subjetividad presentan una distribución dentro del rango de 0 a 300 votos, encontrándose lejos del top 20 de comentarios mas votados. 
 
 \chapter{Conclusiones}
 
+Se puede concluir que los comentarios objetivos y neutrales son aquellos mas votados por el publico que observo y participo en el chat del debate.\\ 
+
+De igual forma se observa un apoyo menos concentrado en aquellos comentarios que presentan algún sesgo de preferencia o repudio sobre algún candidato, tema, proceso, etc...\\
+
+Estas observaciones 

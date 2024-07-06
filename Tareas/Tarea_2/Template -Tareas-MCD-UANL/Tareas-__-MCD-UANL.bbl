@@ -5,6 +5,12 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{steven2024}
+S.~Loria,
+  \href{https://textblob.readthedocs.io/en/latest/quickstart.html#quickstart}{Tutorial:
+  Quickstart}, TextBlob.
+\newline\urlprefix\url{https://textblob.readthedocs.io/en/latest/quickstart.html#quickstart}
+
 \bibitem{quiroga2016}
 M.~A.~R. Quiroga, D.~V. Ayala, D.~Pinto, M.~Tovar, B.~Beltr{\'a}n, An{\'a}lisis
   de sentimientos basado en aspectos: un modelo para identificar la polaridad

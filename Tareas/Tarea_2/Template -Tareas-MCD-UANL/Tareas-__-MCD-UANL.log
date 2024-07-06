@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  4 JUL 2024 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  6 JUL 2024 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,13 +804,6 @@ File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 ) (Tareas-__-MCD-UANL.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
-
-
-LaTeX Warning: Label `fig:FyD' multiply defined.
-
-
-LaTeX Warning: Label `fig:FyD' multiply defined.
-
 )
 \openout1 = `Tareas-__-MCD-UANL.aux'.
 
@@ -1011,47 +1004,61 @@ LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
 
 ]
 Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 21.
 [4
 
 {C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/arimo/arm_c3z4r2.
 enc}]
 Cap\'{\i }tulo 3.
-<../Datos/polaridadYsubjetividad.png, id=54, 896.148pt x 397.485pt>
+<../Datos/polaridadYsubjetividad.png, id=59, 896.148pt x 397.485pt>
 File: ../Datos/polaridadYsubjetividad.png Graphic file (type png)
 <use ../Datos/polaridadYsubjetividad.png>
 Package pdftex.def Info: ../Datos/polaridadYsubjetividad.png  used on input lin
-e 42.
+e 59.
 (pdftex.def)             Requested size: 455.24408pt x 201.9262pt.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 43.
+(Font)              scaled to size 10.0pt on input line 60.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 43.
-<../Datos/DisVotosPolaridad.png, id=56, 723.4227pt x 716.9184pt>
-File: ../Datos/DisVotosPolaridad.png Graphic file (type png)
-<use ../Datos/DisVotosPolaridad.png>
-Package pdftex.def Info: ../Datos/DisVotosPolaridad.png  used on input line 50.
-
-(pdftex.def)             Requested size: 455.24408pt x 451.15778pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../Datos/DisVotosObjetividad.png, id=57, 711.1368pt x 716.9184pt>
-File: ../Datos/DisVotosObjetividad.png Graphic file (type png)
-<use ../Datos/DisVotosObjetividad.png>
-Package pdftex.def Info: ../Datos/DisVotosObjetividad.png  used on input line 5
-8.
-(pdftex.def)             Requested size: 455.24408pt x 458.94653pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(Font)              scaled to size 10.0pt on input line 60.
 [5
 
- <../Datos/polaridadYsubjetividad.png>] [6 <../Datos/DisVotosPolaridad.png>]
-[7 <../Datos/DisVotosObjetividad.png>]
+ <../Datos/polaridadYsubjetividad.png>]
+<../Datos/DisVotosPolaridad.png, id=68, 723.4227pt x 716.9184pt>
+File: ../Datos/DisVotosPolaridad.png Graphic file (type png)
+<use ../Datos/DisVotosPolaridad.png>
+Package pdftex.def Info: ../Datos/DisVotosPolaridad.png  used on input line 71.
+
+(pdftex.def)             Requested size: 455.24408pt x 451.15778pt.
+<../Datos/DisVotosObjetividad.png, id=69, 711.1368pt x 716.9184pt>
+File: ../Datos/DisVotosObjetividad.png Graphic file (type png)
+<use ../Datos/DisVotosObjetividad.png>
+Package pdftex.def Info: ../Datos/DisVotosObjetividad.png  used on input line 8
+0.
+(pdftex.def)             Requested size: 455.24408pt x 458.94653pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6
+
+ <../Datos/DisVotosPolaridad.png>] [7 <../Datos/DisVotosObjetividad.png>]
 Cap\'{\i }tulo 4.
 ) [8
 
-] (Tareas-__-MCD-UANL.bbl) [9
+] (Tareas-__-MCD-UANL.bbl
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+2.
+
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+[9
 
 ] (Tareas-__-MCD-UANL.aux
 LaTeX Info: Redefining \. on input line 15.
@@ -1061,28 +1068,25 @@ LaTeX Info: Redefining \% on input line 15.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 24955 strings out of 474370
- 432105 string characters out of 5740535
- 1931754 words of memory out of 5000000
- 46821 multiletter control sequences out of 15000+600000
- 572948 words of font info for 139 fonts, out of 8000000 for 9000
+ 25021 strings out of 474370
+ 433538 string characters out of 5740535
+ 1933754 words of memory out of 5000000
+ 46849 multiletter control sequences out of 15000+600000
+ 575050 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,11n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/Arimo-
-Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo
-/Arimo.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Tareas-__-MCD-UANL.pdf (10 pages, 494165 bytes).
+ <C:\Users\juanj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1200.pk><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/
+Arimo-Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google
+/arimo/Arimo.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Tareas-__-MCD-UANL.pdf (10 pages, 509137 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 49229 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 53837 words of extra memory for PDF output out of 61914 (max. 10000000)
 
