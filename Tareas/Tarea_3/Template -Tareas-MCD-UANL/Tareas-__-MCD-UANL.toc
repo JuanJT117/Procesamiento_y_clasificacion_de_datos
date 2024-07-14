@@ -1,9 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{ÍNDICE DE FIGURAS}{2}{Doc-Start}%
 \contentsline {chapter}{\numberline {1}Introducción}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Primer objetivo}{3}{section.1.1}%
-\contentsline {chapter}{\numberline {2}descripción de los datos}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Procesado de los comentarios}{5}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Conclusiones}{6}{chapter.4}%
-\contentsline {chapter}{References}{7}{chapter*.1}%
+\contentsline {chapter}{\numberline {2}Descripción de los datos}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Conclusiones}{9}{chapter.3}%
+\contentsline {chapter}{References}{10}{chapter*.7}%
 \contentsfinish 

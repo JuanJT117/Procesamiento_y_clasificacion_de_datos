@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  7 JUL 2024 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  14 JUL 2024 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,24 +807,24 @@ LaTeX Info: Redefining \% on input line 15.
 )
 \openout1 = `Tareas-__-MCD-UANL.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
-LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -851,8 +851,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -900,19 +900,19 @@ Package caption Info: End \AtBeginDocument code.
 
 \c@mv@tabular=\count368
 \c@mv@boldtabular=\count369
-LaTeX Info: Redefining \microtypecontext on input line 127.
-Package microtype Info: Applying patch `item' on input line 127.
-Package microtype Info: Applying patch `toc' on input line 127.
-Package microtype Info: Applying patch `eqnum' on input line 127.
-Package microtype Info: Applying patch `footnote' on input line 127.
-Package microtype Info: Applying patch `verbatim' on input line 127.
+LaTeX Info: Redefining \microtypecontext on input line 128.
+Package microtype Info: Applying patch `item' on input line 128.
+Package microtype Info: Applying patch `toc' on input line 128.
+Package microtype Info: Applying patch `eqnum' on input line 128.
+Package microtype Info: Applying patch `footnote' on input line 128.
+Package microtype Info: Applying patch `verbatim' on input line 128.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 127.
+LaTeX Info: Redefining \showhyphens on input line 128.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -920,38 +920,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Arimo-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 127.
+Package hyperref Info: Link coloring ON on input line 128.
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/Arimo-TLF/m/n --> TS1/Arimo-TLF/b/n on input line 1
-27.
-Package gensymb Info: Math companion symbols declared on input line 127.
-LaTeX Info: Redefining \degree on input line 127.
-LaTeX Info: Redefining \celsius on input line 127.
+28.
+Package gensymb Info: Math companion symbols declared on input line 128.
+LaTeX Info: Redefining \degree on input line 128.
+LaTeX Info: Redefining \celsius on input line 128.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 127.
-LaTeX Info: Redefining \ohm on input line 127.
-Package gensymb Info: Using \textohm for \ohm on input line 127.
-Package gensymb Info: Using \textmu for \micro on input line 127.
+erthousand on input line 128.
+LaTeX Info: Redefining \ohm on input line 128.
+Package gensymb Info: Using \textohm for \ohm on input line 128.
+Package gensymb Info: Using \textmu for \micro on input line 128.
 \c@lstlisting=\count370
 <Images/UANL.jpg, id=3, 971.0679pt x 409.0482pt>
 File: Images/UANL.jpg Graphic file (type jpg)
 <use Images/UANL.jpg>
-Package pdftex.def Info: Images/UANL.jpg  used on input line 135.
+Package pdftex.def Info: Images/UANL.jpg  used on input line 136.
 (pdftex.def)             Requested size: 418.25368pt x 176.18065pt.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 143.
+(Font)              scaled to size 14.4pt on input line 144.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 143.
+(Font)              scaled to size 14.4pt on input line 144.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 148.
+(Font)              scaled to size 24.88pt on input line 149.
 [1
 
 {C:/Users/juanj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/juan
 j/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/arimo/arm_l3opzb.enc} <./Images
 /UANL.jpg>]
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 199.
+(Font)              scaled to size 24.88pt on input line 200.
  (Tareas-__-MCD-UANL.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -988,7 +988,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 \newpage
+l.202 \newpage
                [1] (Tareas-__-MCD-UANL.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1004,21 +1004,74 @@ LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
 
 ]
 Cap\'{\i }tulo 2.
+<Images/Promedio_de_palabras.png, id=43, 566.5968pt x 422.0568pt>
+File: Images/Promedio_de_palabras.png Graphic file (type png)
+<use Images/Promedio_de_palabras.png>
+Package pdftex.def Info: Images/Promedio_de_palabras.png  used on input line 13
+.
+(pdftex.def)             Requested size: 398.33858pt x 296.7193pt.
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 14.
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 14.
 [4
 
-]
-Cap\'{\i }tulo 3.
-[5
+ <./Images/Promedio_de_palabras.png>]
+<Images/Promedio_de_caracteres.png, id=51, 566.5968pt x 422.0568pt>
+File: Images/Promedio_de_caracteres.png Graphic file (type png)
+<use Images/Promedio_de_caracteres.png>
+Package pdftex.def Info: Images/Promedio_de_caracteres.png  used on input line 
+22.
+(pdftex.def)             Requested size: 341.43306pt x 254.33083pt.
+<Images/Densidad_sentimientos.png, id=52, 397.485pt x 349.0641pt>
+File: Images/Densidad_sentimientos.png Graphic file (type png)
+<use Images/Densidad_sentimientos.png>
+Package pdftex.def Info: Images/Densidad_sentimientos.png  used on input line 3
+1.
+(pdftex.def)             Requested size: 341.43306pt x 299.84839pt.
 
-]
-Cap\'{\i }tulo 4.
-) [6
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./Images/Promedio_de_caracteres.png>]
+<Images/Densidad_subjetividad.png, id=59, 397.485pt x 349.0641pt>
+File: Images/Densidad_subjetividad.png Graphic file (type png)
+<use Images/Densidad_subjetividad.png>
+Package pdftex.def Info: Images/Densidad_subjetividad.png  used on input line 4
+0.
+(pdftex.def)             Requested size: 341.43306pt x 299.84839pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/Palabras_sentimiento.png, id=60, 409.7709pt x 315.8199pt>
+File: Images/Palabras_sentimiento.png Graphic file (type png)
+<use Images/Palabras_sentimiento.png>
+Package pdftex.def Info: Images/Palabras_sentimiento.png  used on input line 51
+.
+(pdftex.def)             Requested size: 341.43306pt x 263.16171pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/Palabras_objetividad.png, id=61, 409.7709pt x 315.8199pt>
+File: Images/Palabras_objetividad.png Graphic file (type png)
+<use Images/Palabras_objetividad.png>
+Package pdftex.def Info: Images/Palabras_objetividad.png  used on input line 58
+.
+(pdftex.def)             Requested size: 341.43306pt x 263.16171pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./Images/Densidad_sentimientos.png>] [7 <./Images/Densidad_subjetividad.png
+> <./Images/Palabras_sentimiento.png>] [8 <./Images/Palabras_objetividad.png>]
+Cap\'{\i }tulo 3.
+) [9
 
 ] (Tareas-__-MCD-UANL.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [7
+) [10
 
 ] (Tareas-__-MCD-UANL.aux
 LaTeX Info: Redefining \. on input line 15.
@@ -1030,19 +1083,19 @@ L3 programming layer <2024-04-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24820 strings out of 474370
- 429057 string characters out of 5740535
- 1929754 words of memory out of 5000000
- 46749 multiletter control sequences out of 15000+600000
- 569516 words of font info for 102 fonts, out of 8000000 for 9000
+ 24958 strings out of 474370
+ 432873 string characters out of 5740535
+ 1932754 words of memory out of 5000000
+ 46830 multiletter control sequences out of 15000+600000
+ 572579 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,5n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/Arimo-
 Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo
 /Arimo.pfb>
-Output written on Tareas-__-MCD-UANL.pdf (8 pages, 382561 bytes).
+Output written on Tareas-__-MCD-UANL.pdf (11 pages, 497612 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 38974 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 47180 words of extra memory for PDF output out of 51595 (max. 10000000)
 
