@@ -21,16 +21,16 @@
  
  -Análisis de sentimientos utilizando técnicas de análisis de texto. 
 
--[Tarea 2: Analisis de sentimiento comentarios del primer debate presidencial 2024](Tarea_2\Template -Tareas-MCD-UANL\Tareas-2-MCD-UANL.pdf)
--[Tarea 2: (codigo): Analisis de sentimiento comentarios del primer debate presidencial 2024](Tareas\Tarea_2\Datos\YCD.ipynb)
+-[Tarea 2: Analisis de sentimiento comentarios del primer debate presidencial 2024](Tarea_2/Template-Tareas-MCD-UANL/Tareas-2-MCD-UANL.pdf)
+-[Tarea 2: (codigo): Analisis de sentimiento comentarios del primer debate presidencial 2024](Tareas/Tarea_2/Datos/YCD.ipynb)
 ## Sesión 3: Análisis de Texto. Clasificación 
 
  -Aplicaciones de análisis de texto en la clasificación de documentos. 
  
  -Ejemplos prácticos y casos de estudio. 
 
--[Tarea 3: Tecnicas de agrupamiento en comentarios del primer debate presidencial 2024]()
--[Tarea 3: (codigo): ATecnicas de agrupamiento en comentarios del primer debate presidencial 2024](Tareas\Tarea_3\Datos\Tarea_3.ipynb)
+-[Tarea 3: Tecnicas de agrupamiento en comentarios del primer debate presidencial 2024](Tareas/Tarea_3/Template-Tareas-MCD-UANL/Tareas-3-MCD-UANL.pdf)
+-[Tarea 3: (codigo): ATecnicas de agrupamiento en comentarios del primer debate presidencial 2024](Tareas/Tarea_3/Datos/Tarea_3.ipynb)
 
 ## Sesión 4: Análisis de Imágenes 
 
@@ -44,14 +44,13 @@
  -Redes neuronales convolucionales (CNN) para clasificación de imágenes. 
  
  -Transfer Learning y Fine-tuning en modelos de visión por computadora. 
- 
+- [Tarea 5: Streamlit]()
+
 ## Sesión 6: Análisis de Imágenes 
 
  -Aplicaciones de análisis de imágenes: detección de objetos, segmentación semántica. 
  
  -Ejemplos de casos prácticos. 
-
- - [Tarea 5: Streamlit en el analisis de comentarios de videos en YouTube]()
 
 ## Sesión 7: Análisis de Audio 
 

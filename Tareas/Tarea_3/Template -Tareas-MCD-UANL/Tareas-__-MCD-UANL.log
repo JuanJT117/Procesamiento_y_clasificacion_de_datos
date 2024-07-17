@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  14 JUL 2024 01:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  16 JUL 2024 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,7 +1009,7 @@ File: Images/Promedio_de_palabras.png Graphic file (type png)
 <use Images/Promedio_de_palabras.png>
 Package pdftex.def Info: Images/Promedio_de_palabras.png  used on input line 13
 .
-(pdftex.def)             Requested size: 398.33858pt x 296.7193pt.
+(pdftex.def)             Requested size: 284.52756pt x 211.94235pt.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 14.
 LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
@@ -1017,53 +1017,45 @@ LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
 [4
 
  <./Images/Promedio_de_palabras.png>]
-<Images/Promedio_de_caracteres.png, id=51, 566.5968pt x 422.0568pt>
+<Images/Promedio_de_caracteres.png, id=52, 566.5968pt x 422.0568pt>
 File: Images/Promedio_de_caracteres.png Graphic file (type png)
 <use Images/Promedio_de_caracteres.png>
 Package pdftex.def Info: Images/Promedio_de_caracteres.png  used on input line 
-22.
-(pdftex.def)             Requested size: 341.43306pt x 254.33083pt.
-<Images/Densidad_sentimientos.png, id=52, 397.485pt x 349.0641pt>
+24.
+(pdftex.def)             Requested size: 284.52756pt x 211.94235pt.
+ [5 <./Images/Promedio_de_caracteres.png>]
+<Images/Densidad_sentimientos.png, id=59, 397.485pt x 349.0641pt>
 File: Images/Densidad_sentimientos.png Graphic file (type png)
 <use Images/Densidad_sentimientos.png>
 Package pdftex.def Info: Images/Densidad_sentimientos.png  used on input line 3
-1.
-(pdftex.def)             Requested size: 341.43306pt x 299.84839pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5 <./Images/Promedio_de_caracteres.png>]
-<Images/Densidad_subjetividad.png, id=59, 397.485pt x 349.0641pt>
+3.
+(pdftex.def)             Requested size: 284.52756pt x 249.87189pt.
+<Images/Densidad_subjetividad.png, id=61, 397.485pt x 349.0641pt>
 File: Images/Densidad_subjetividad.png Graphic file (type png)
 <use Images/Densidad_subjetividad.png>
 Package pdftex.def Info: Images/Densidad_subjetividad.png  used on input line 4
-0.
-(pdftex.def)             Requested size: 341.43306pt x 299.84839pt.
+3.
+(pdftex.def)             Requested size: 284.52756pt x 249.87189pt.
+ [6
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Images/Palabras_sentimiento.png, id=60, 409.7709pt x 315.8199pt>
+ <./Images/Densidad_sentimientos.png> <./Images/Densidad_subjetividad.png>]
+<Images/Palabras_sentimiento.png, id=69, 409.7709pt x 315.8199pt>
 File: Images/Palabras_sentimiento.png Graphic file (type png)
 <use Images/Palabras_sentimiento.png>
-Package pdftex.def Info: Images/Palabras_sentimiento.png  used on input line 51
+Package pdftex.def Info: Images/Palabras_sentimiento.png  used on input line 52
 .
-(pdftex.def)             Requested size: 341.43306pt x 263.16171pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Images/Palabras_objetividad.png, id=61, 409.7709pt x 315.8199pt>
+(pdftex.def)             Requested size: 284.52756pt x 219.29901pt.
+<Images/Palabras_objetividad.png, id=71, 409.7709pt x 315.8199pt>
 File: Images/Palabras_objetividad.png Graphic file (type png)
 <use Images/Palabras_objetividad.png>
-Package pdftex.def Info: Images/Palabras_objetividad.png  used on input line 58
+Package pdftex.def Info: Images/Palabras_objetividad.png  used on input line 61
 .
-(pdftex.def)             Requested size: 341.43306pt x 263.16171pt.
+(pdftex.def)             Requested size: 284.52756pt x 219.29901pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./Images/Densidad_sentimientos.png>] [7 <./Images/Densidad_subjetividad.png
-> <./Images/Palabras_sentimiento.png>] [8 <./Images/Palabras_objetividad.png>]
+[7 <./Images/Palabras_sentimiento.png>] [8 <./Images/Palabras_objetividad.png>]
 Cap\'{\i }tulo 3.
 ) [9
 
@@ -1083,19 +1075,19 @@ L3 programming layer <2024-04-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24958 strings out of 474370
- 432873 string characters out of 5740535
- 1932754 words of memory out of 5000000
+ 24979 strings out of 474370
+ 433215 string characters out of 5740535
+ 1930754 words of memory out of 5000000
  46830 multiletter control sequences out of 15000+600000
- 572579 words of font info for 136 fonts, out of 8000000 for 9000
+ 573272 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,11n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/Arimo-
 Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo
 /Arimo.pfb>
-Output written on Tareas-__-MCD-UANL.pdf (11 pages, 497612 bytes).
+Output written on Tareas-__-MCD-UANL.pdf (11 pages, 499567 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
  47180 words of extra memory for PDF output out of 51595 (max. 10000000)
 
