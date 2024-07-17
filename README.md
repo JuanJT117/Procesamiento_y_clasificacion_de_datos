@@ -44,7 +44,7 @@
  -Redes neuronales convolucionales (CNN) para clasificación de imágenes. 
  
  -Transfer Learning y Fine-tuning en modelos de visión por computadora. 
-- [Tarea 5: Streamlit]()
+- [Tarea 5: Streamlit](Tareas/Tarea_5/app.py)
 
 ## Sesión 6: Análisis de Imágenes 
 
@@ -57,7 +57,8 @@
  -Introducción al procesamiento de audio en Ciencia de Datos. 
  
  -Representación de señales de audio. 
- 
+ -[Tarea 7: (codigo): Comparacion entre sonidos ambientales](Tareas/Tarea_7/Template-Tareas-MCD-UANL/Tareas-__-MCD-UANL.pdf)
+
 ## Sesión 8: Análisis de Audio 
 
  -Reconocimiento de voz y análisis de habla. 
