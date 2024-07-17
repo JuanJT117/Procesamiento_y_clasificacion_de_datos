@@ -65,7 +65,7 @@
  
  -Modelos de aprendizaje profundo para procesamiento de audio. 
  
- -[Tarea 8: (codigo): reconocimiento de patrones de voz](Tareas\Tarea_8\Datos\Tarea.ipynb)
+ -[Tarea 8: (codigo): reconocimiento de patrones de voz](Tareas/Tarea_8/Datos/Tarea.ipynb)
 ## Sesión 9: Análisis de Audio 
 
  -Aplicaciones de análisis de audio: identificación de sonidos, clasificación de audio. 
