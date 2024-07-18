@@ -22,7 +22,7 @@ from nltk.stem.snowball import SnowballStemmer
 from wordcloud import WordCloud
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
-    page_title='DPCYT dashboard',
+    page_title='YouCoAn',
     page_icon=':computer:', # This is an emoji shortcode. Could be a URL too.
 )
 #st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -52,7 +52,7 @@ def eliminar_contenido_archivo(ruta_archivo):
 
 # Set the title that appears at the top of the page.
 '''
-# :computer: DPCYT dashboard
+# :computer: YouCoAn
 
 
 The YouTube Comment Analyzer is a web application 
