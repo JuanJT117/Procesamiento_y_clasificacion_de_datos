@@ -1,0 +1,11 @@
+streamlit
+pandas
+youtube_comment_downloader
+matplotlib
+seaborn 
+numpy 
+textblob
+scikit-learn
+nltk
+regex
+wordcloud

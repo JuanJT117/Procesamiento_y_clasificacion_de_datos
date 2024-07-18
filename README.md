@@ -78,4 +78,4 @@
  
  -Uso de frameworks como Flask para construir un servicio web. 
  
-## Sesión 11: Entrega de proyecto final 15 de Julio
+## Sesión 11: Entrega de proyecto final 
