@@ -80,4 +80,4 @@
  
 ## Sesión 11: Entrega de proyecto final 
 
- - [Proyecto Final: DPCYT dashboard](Tareas/Tarea_8/Datos/Tarea.ipynb)
+ - [Proyecto Final: DPCYT dashboard](https://requirementstxt-det8stxfmhwaua8egtq9hv.streamlit.app/)
