@@ -90,7 +90,8 @@ if url:
         mask = df['votes'].str.contains('K')
         if mask.any():
             df.loc[mask, 'new_column'] = 1000
-            df['votes'] = df['votes'].str.replace('K', '').astype(float)
+            df['votes'] = df['votes'].str.replace('K', '')
+            df['votes'] = df['votes'].astype(float)
         df['votes'] = df['votes'] * df['new_column']
 
 
