@@ -86,19 +86,10 @@ if url:
                 # limitar a mas de 1000 likes
 
         df['new_column'] = 1
-
-        mask = df['votes'].str.contains('K')
-        if mask.any():
-            df.loc[mask, 'new_column'] = 1000
-            df['votes'] = df['votes'].str.replace('K', '')
-            df['votes'] = df['votes'].astype(float)
+        df.loc[df['votes'].str.contains('K'), 'new_column'] = 1000
+        df['votes'] = df['votes'].str.replace('K', '')
+        df['votes'] = df['votes'].astype(float)
         df['votes'] = df['votes'] * df['new_column']
-
-
-        #df.loc[df['votes'].str.contains('K'), 'new_column'] = 1000
-        #df['votes'] = df['votes'].str.replace('K', '')
-        #df['votes'] = df['votes'].astype(float)
-        #df['votes'] = df['votes'] * df['new_column']
 
 
         df.drop(columns=['new_column'], inplace=True)
