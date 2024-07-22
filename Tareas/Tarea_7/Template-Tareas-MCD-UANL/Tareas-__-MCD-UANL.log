@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  17 JUL 2024 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.12)  21 JUL 2024 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,6 +804,16 @@ File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 ) (Tareas-__-MCD-UANL.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
+
+
+LaTeX Warning: Label `fig:FyD' multiply defined.
+
+
+LaTeX Warning: Label `fig:FyD' multiply defined.
+
+
+LaTeX Warning: Label `fig:FyD' multiply defined.
+
 )
 \openout1 = `Tareas-__-MCD-UANL.aux'.
 
@@ -1008,17 +1018,52 @@ Cap\'{\i }tulo 2.
 
 ]
 Cap\'{\i }tulo 3.
+<Images/Amplitudes.png, id=47, 1003.1076pt x 1148.3703pt>
+File: Images/Amplitudes.png Graphic file (type png)
+<use Images/Amplitudes.png>
+Package pdftex.def Info: Images/Amplitudes.png  used on input line 31.
+(pdftex.def)             Requested size: 426.79134pt x 488.58537pt.
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 32.
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 32.
+<Images/Coeficientes.png, id=49, 917.1063pt x 1148.3703pt>
+File: Images/Coeficientes.png Graphic file (type png)
+<use Images/Coeficientes.png>
+Package pdftex.def Info: Images/Coeficientes.png  used on input line 38.
+(pdftex.def)             Requested size: 426.79134pt x 534.40723pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/Espectrograma.png, id=50, 911.3247pt x 1148.3703pt>
+File: Images/Espectrograma.png Graphic file (type png)
+<use Images/Espectrograma.png>
+Package pdftex.def Info: Images/Espectrograma.png  used on input line 45.
+(pdftex.def)             Requested size: 426.79134pt x 537.80663pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/Frecuencias_representativas.png, id=51, 1003.8303pt x 1148.3703pt>
+File: Images/Frecuencias_representativas.png Graphic file (type png)
+<use Images/Frecuencias_representativas.png>
+Package pdftex.def Info: Images/Frecuencias_representativas.png  used on input 
+line 52.
+(pdftex.def)             Requested size: 426.79134pt x 488.23491pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [5
 
-]
+ <./Images/Amplitudes.png>] [6 <./Images/Coeficientes.png>] [7 <./Images/Espect
+rograma.png>] [8 <./Images/Frecuencias_representativas.png>]
 Cap\'{\i }tulo 4.
-) [6
+) [9
 
 ] (Tareas-__-MCD-UANL.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [7
+) [10
 
 ] (Tareas-__-MCD-UANL.aux
 LaTeX Info: Redefining \. on input line 15.
@@ -1028,21 +1073,25 @@ LaTeX Info: Redefining \% on input line 15.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 24820 strings out of 474370
- 429047 string characters out of 5740535
- 1929754 words of memory out of 5000000
- 46749 multiletter control sequences out of 15000+600000
- 569516 words of font info for 102 fonts, out of 8000000 for 9000
+ 24929 strings out of 474370
+ 431648 string characters out of 5740535
+ 1931754 words of memory out of 5000000
+ 46808 multiletter control sequences out of 15000+600000
+ 572338 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,5n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,93p,2394b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo/Arimo-
 Bold.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/google/arimo
 /Arimo.pfb>
-Output written on Tareas-__-MCD-UANL.pdf (8 pages, 380739 bytes).
+Output written on Tareas-__-MCD-UANL.pdf (11 pages, 1125536 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 38974 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 47186 words of extra memory for PDF output out of 51595 (max. 10000000)
 
